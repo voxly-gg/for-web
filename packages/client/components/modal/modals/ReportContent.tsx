@@ -263,10 +263,7 @@ export function ReportContentModal(
           </div>
 
           <SelectContainer ref={selectContainerRef}>
-            <Form2.TextField.Select
-              control={group.controls.category}
-              disablePortal={true}
-            >
+            <Form2.TextField.Select control={group.controls.category}>
               <MenuItem value="">
                 <Trans>Please select a reason</Trans>
               </MenuItem>
@@ -304,6 +301,7 @@ const contentContainer = cva({
 const SelectContainer = styled("div", {
   base: {
     position: "relative",
+    zIndex: 1000,
     overflow: "visible",
     contain: "layout style",
     "& mdui-select": {
