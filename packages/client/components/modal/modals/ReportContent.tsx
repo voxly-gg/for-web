@@ -263,7 +263,10 @@ export function ReportContentModal(
           </div>
 
           <SelectContainer ref={selectContainerRef}>
-            <Form2.TextField.Select control={group.controls.category} disablePortal={true}>
+            <Form2.TextField.Select
+              control={group.controls.category}
+              disablePortal={true}
+            >
               <MenuItem value="">
                 <Trans>Please select a reason</Trans>
               </MenuItem>
