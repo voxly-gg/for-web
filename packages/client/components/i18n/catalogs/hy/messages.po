@@ -2115,6 +2115,10 @@ msgstr ""
 msgid "Reason"
 msgstr "պատճառ"
 
+#: components/modal/modals/ReportContent.tsx
+msgid "Reason for report"
+msgstr ""
+
 #: components/app/interface/settings/user/Notifications.tsx
 msgid "Receive notifications while the app is open and in the background."
 msgstr ""
