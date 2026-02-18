@@ -68,7 +68,7 @@ export function FloatingSelect(props: FloatingSelectProps) {
       flip(),
       shift({ padding: 8 }),
       size({
-        apply({ rects, elements }: { rects: any; elements: any }) {
+        apply({ rects, elements }) {
           Object.assign(elements.floating.style, {
             minWidth: `${rects.reference.width}px`,
           });
