@@ -77,7 +77,6 @@ export function FloatingSelect(props: FloatingSelectProps) {
     ],
   });
 
-  // Close dropdown when clicking outside
   function handleClickOutside(e: MouseEvent) {
     if (!isOpen()) return;
 
@@ -100,7 +99,6 @@ export function FloatingSelect(props: FloatingSelectProps) {
     document.removeEventListener("mousedown", handleClickOutside),
   );
 
-  // Handle item selection
   function handleItemClick(event: MouseEvent) {
     const target = event.target as HTMLElement;
     const menuItem: MenuItem | undefined =
