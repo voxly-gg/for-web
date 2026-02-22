@@ -14,7 +14,7 @@ WORKDIR /build
 COPY package.json pnpm-workspace.yaml pnpm-lock.yaml .npmrc ./
 
 # Copy all package.json files for workspace packages
-COPY packages/stoat.js/package.json packages/stoat.js/
+COPY packages/voxly.js/package.json packages/voxly.js/
 COPY packages/solid-livekit-components/package.json packages/solid-livekit-components/
 COPY packages/js-lingui-solid/packages/babel-plugin-lingui-macro/package.json packages/js-lingui-solid/packages/babel-plugin-lingui-macro/
 COPY packages/js-lingui-solid/packages/babel-plugin-extract-messages/package.json packages/js-lingui-solid/packages/babel-plugin-extract-messages/
@@ -32,7 +32,7 @@ RUN pnpm install --frozen-lockfile
 COPY packages/ packages/
 
 # Build sub-dependencies (stoat.js, livekit-components, lingui plugins, panda css etc)
-RUN pnpm --filter stoat.js build && \
+RUN pnpm --filter voxly.js build && \
   pnpm --filter solid-livekit-components build && \
   pnpm --filter @lingui-solid/babel-plugin-lingui-macro build && \
   pnpm --filter @lingui-solid/babel-plugin-extract-messages build && \

@@ -54,7 +54,7 @@ export default function codegenPlugin() {
             src =
               `import { ${DIRECTIVES.join(
                 ", ",
-              )} } from "@revolt/ui/directives";\n` + src;
+              )} } from "@voxly/ui/directives";\n` + src;
         }
 
         return src;
