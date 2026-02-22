@@ -17,11 +17,11 @@ import {
   Session,
   User,
   VideoEmbed,
-} from "stoat.js";
+} from "voxly.js";
 import { ProtocolV1 } from "stoat.js/lib/events/v1";
 
-import type { SettingsConfigurations } from "@revolt/app";
-import { CategoryData } from "@revolt/app/menus/CategoryContextMenu";
+import type { SettingsConfigurations } from "@voxly/app";
+import { CategoryData } from "@voxly/app/menus/CategoryContextMenu";
 
 export type Modals =
   | {

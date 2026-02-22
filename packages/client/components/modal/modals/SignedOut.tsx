@@ -1,6 +1,6 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { Dialog, DialogProps } from "@revolt/ui";
+import { Dialog, DialogProps } from "@voxly/ui";
 
 import { Modals } from "../types";
 

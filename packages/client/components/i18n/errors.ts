@@ -1,5 +1,5 @@
 import { useLingui } from "@lingui-solid/solid/macro";
-import { API } from "stoat.js";
+import { API } from "voxly.js";
 
 /**
  * Translate any error

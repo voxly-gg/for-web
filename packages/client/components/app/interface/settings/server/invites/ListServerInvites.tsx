@@ -2,9 +2,9 @@ import { For, Match, Switch } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
 import { useQuery, useQueryClient } from "@tanstack/solid-query";
-import { Server, ServerInvite } from "stoat.js";
+import { Server, ServerInvite } from "voxly.js";
 
-import { useModals } from "@revolt/modal";
+import { useModals } from "@voxly/modal";
 import {
   Avatar,
   Button,
@@ -13,7 +13,7 @@ import {
   DataTable,
   Row,
   Text,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import MdDelete from "@material-design-icons/svg/outlined/delete.svg?component-solid";
 

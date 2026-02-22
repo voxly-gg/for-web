@@ -2,15 +2,15 @@ import { Match, Show, Switch, createMemo, splitProps } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
 import { VirtualContainer } from "@minht11/solid-virtual-container";
-import { Channel } from "stoat.js";
+import { Channel } from "voxly.js";
 import { css } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { ChannelContextMenu, UserContextMenu } from "@revolt/app";
-import { useClient } from "@revolt/client";
-import { TextWithEmoji } from "@revolt/markdown";
-import { useModals } from "@revolt/modal";
-import { useLocation, useNavigate } from "@revolt/routing";
+import { ChannelContextMenu, UserContextMenu } from "@voxly/app";
+import { useClient } from "@voxly/client";
+import { TextWithEmoji } from "@voxly/markdown";
+import { useModals } from "@voxly/modal";
+import { useLocation, useNavigate } from "@voxly/routing";
 import {
   Avatar,
   Deferred,
@@ -20,8 +20,8 @@ import {
   UserStatus,
   iconSize,
   typography,
-} from "@revolt/ui";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+} from "@voxly/ui";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 import MdClose from "@material-design-icons/svg/outlined/close.svg?component-solid";
 

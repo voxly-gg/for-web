@@ -1,16 +1,16 @@
 import { For } from "solid-js";
 
-import { useState } from "@revolt/state";
+import { useState } from "@voxly/state";
 import {
   AVAILABLE_EXPERIMENTS,
   EXPERIMENTS,
-} from "@revolt/state/stores/Experiments";
+} from "@voxly/state/stores/Experiments";
 import {
   CategoryButton,
   CategoryButtonGroup,
   Checkbox,
   Column,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 /**
  * Advanced settings

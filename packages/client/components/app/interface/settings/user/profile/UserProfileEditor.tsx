@@ -3,10 +3,10 @@ import { Show, createEffect, createSignal, on } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
 import { useQuery, useQueryClient } from "@tanstack/solid-query";
-import { API, User } from "stoat.js";
+import { API, User } from "voxly.js";
 
-import { useClient } from "@revolt/client";
-import { CONFIGURATION } from "@revolt/common";
+import { useClient } from "@voxly/client";
+import { CONFIGURATION } from "@voxly/common";
 import {
   CategoryButton,
   CircularProgress,
@@ -14,7 +14,7 @@ import {
   Form2,
   Row,
   Text,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import MdBadge from "@material-design-icons/svg/filled/badge.svg?component-solid";
 

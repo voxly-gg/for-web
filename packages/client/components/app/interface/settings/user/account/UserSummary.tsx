@@ -1,10 +1,10 @@
 import { Show } from "solid-js";
 
-import { User } from "stoat.js";
+import { User } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { useTime } from "@revolt/i18n";
-import { Avatar, CategoryButton, IconButton, iconSize } from "@revolt/ui";
+import { useTime } from "@voxly/i18n";
+import { Avatar, CategoryButton, IconButton, iconSize } from "@voxly/ui";
 
 import MdCakeFill from "@material-design-icons/svg/filled/cake.svg?component-solid";
 import MdEdit from "@material-design-icons/svg/outlined/edit.svg?component-solid";

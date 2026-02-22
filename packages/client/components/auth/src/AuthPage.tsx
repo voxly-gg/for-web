@@ -4,9 +4,9 @@ import { JSX } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { Titlebar } from "@revolt/app/interface/desktop/Titlebar";
-import { useState } from "@revolt/state";
-import { IconButton, iconSize } from "@revolt/ui";
+import { Titlebar } from "@voxly/app/interface/desktop/Titlebar";
+import { useState } from "@voxly/state";
+import { IconButton, iconSize } from "@voxly/ui";
 
 import MdDarkMode from "@material-design-icons/svg/filled/dark_mode.svg?component-solid";
 

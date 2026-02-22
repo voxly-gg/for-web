@@ -1,18 +1,18 @@
 import { For, Show, createMemo } from "solid-js";
 
 import { useLingui } from "@lingui-solid/solid/macro";
-import { API } from "stoat.js";
+import { API } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { Emoji } from "@revolt/markdown";
-import { useUsers } from "@revolt/markdown/users";
-import { Ripple, Text } from "@revolt/ui/components/design";
-import { Tooltip } from "@revolt/ui/components/floating";
-import { Row } from "@revolt/ui/components/layout";
+import { Emoji } from "@voxly/markdown";
+import { useUsers } from "@voxly/markdown/users";
+import { Ripple, Text } from "@voxly/ui/components/design";
+import { Tooltip } from "@voxly/ui/components/floating";
+import { Row } from "@voxly/ui/components/layout";
 
 import MdAdd from "@material-design-icons/svg/outlined/add.svg?component-solid";
 
-import { startsWithPackPUA } from "@revolt/markdown/emoji/UnicodeEmoji";
+import { startsWithPackPUA } from "@voxly/markdown/emoji/UnicodeEmoji";
 import { CompositionMediaPicker } from "../composition";
 
 interface Props {

@@ -3,11 +3,11 @@ import { For, Match, Switch, createSignal } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { CategoryButton, Column, Dialog, DialogProps } from "@revolt/ui";
-import type { DialogAction } from "@revolt/ui/components/design/Dialog";
+import { CategoryButton, Column, Dialog, DialogProps } from "@voxly/ui";
+import type { DialogAction } from "@voxly/ui/components/design/Dialog";
 
-import { Markdown } from "@revolt/markdown";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+import { Markdown } from "@voxly/markdown";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 import { Modals } from "../types";
 
 /**

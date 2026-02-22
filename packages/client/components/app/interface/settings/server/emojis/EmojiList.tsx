@@ -2,13 +2,13 @@ import { createFormControl, createFormGroup } from "solid-forms";
 import { For, Match, Switch } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import { Server } from "stoat.js";
+import { Server } from "voxly.js";
 import { css } from "styled-system/css";
 
-import { useClient } from "@revolt/client";
-import { CONFIGURATION } from "@revolt/common";
-import { useError } from "@revolt/i18n";
-import { useModals } from "@revolt/modal";
+import { useClient } from "@voxly/client";
+import { CONFIGURATION } from "@voxly/common";
+import { useError } from "@voxly/i18n";
+import { useModals } from "@voxly/modal";
 import {
   Avatar,
   CategoryButton,
@@ -17,7 +17,7 @@ import {
   Form2,
   Row,
   Text,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 /**
  * Emoji list

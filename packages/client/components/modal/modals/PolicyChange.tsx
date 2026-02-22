@@ -11,8 +11,8 @@ import {
   Row,
   Text,
   Time,
-} from "@revolt/ui";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+} from "@voxly/ui";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 import MdPolicy from "@material-design-icons/svg/outlined/policy.svg?component-solid";
 

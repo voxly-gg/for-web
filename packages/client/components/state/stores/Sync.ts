@@ -1,7 +1,7 @@
 import { batch } from "solid-js";
 
 import { ReactiveSet } from "@solid-primitives/set";
-import { Client } from "stoat.js";
+import { Client } from "voxly.js";
 
 import { State } from "..";
 

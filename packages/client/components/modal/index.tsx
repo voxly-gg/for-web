@@ -8,9 +8,9 @@ import {
 } from "solid-js";
 import { SetStoreFunction, createStore } from "solid-js/store";
 
-import type { MFA, MFATicket } from "stoat.js";
+import type { MFA, MFATicket } from "voxly.js";
 
-import { Keybind, KeybindAction } from "@revolt/keybinds";
+import { Keybind, KeybindAction } from "@voxly/keybinds";
 
 import { RenderModal } from "./modals";
 import { Modals } from "./types";

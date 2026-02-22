@@ -11,12 +11,12 @@ import {
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
 import { VirtualContainer } from "@minht11/solid-virtual-container";
-import type { User } from "stoat.js";
+import type { User } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { UserContextMenu } from "@revolt/app";
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
+import { UserContextMenu } from "@voxly/app";
+import { useClient } from "@voxly/client";
+import { useModals } from "@voxly/modal";
 import {
   Avatar,
   Badge,
@@ -31,8 +31,8 @@ import {
   OverflowingText,
   UserStatus,
   main,
-} from "@revolt/ui";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+} from "@voxly/ui";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 import { HeaderIcon } from "./common/CommonHeader";
 

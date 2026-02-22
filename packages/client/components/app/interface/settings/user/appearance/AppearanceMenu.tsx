@@ -4,13 +4,13 @@ import { Trans } from "@lingui-solid/solid/macro";
 import { css } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { useUser } from "@revolt/client";
+import { useUser } from "@voxly/client";
 import {
   UNICODE_EMOJI_PACKS,
   UnicodeEmoji,
   UnicodeEmojiPacks,
-} from "@revolt/markdown/emoji/UnicodeEmoji";
-import { useState } from "@revolt/state";
+} from "@voxly/markdown/emoji/UnicodeEmoji";
+import { useState } from "@voxly/state";
 import {
   Avatar,
   Button,
@@ -23,13 +23,13 @@ import {
   Slider,
   Text,
   TextField,
-} from "@revolt/ui";
+} from "@voxly/ui";
 import {
   FONT_KEYS,
   Fonts,
   MONOSPACE_FONT_KEYS,
   MonospaceFonts,
-} from "@revolt/ui/themes/fonts";
+} from "@voxly/ui/themes/fonts";
 
 import MDPalette from "@material-design-icons/svg/outlined/palette.svg?component-solid";
 

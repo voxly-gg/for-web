@@ -7,13 +7,13 @@ import {
 } from "solid-icons/bi";
 import { Match, Show, Switch } from "solid-js";
 
-import { File, MessageEmbed } from "stoat.js";
+import { File, MessageEmbed } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { IconButton, Text } from "@revolt/ui/components/design";
-import { Column, Row } from "@revolt/ui/components/layout";
-import { humanFileSize } from "@revolt/ui/components/utils";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+import { IconButton, Text } from "@voxly/ui/components/design";
+import { Column, Row } from "@voxly/ui/components/layout";
+import { humanFileSize } from "@voxly/ui/components/utils";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 /**
  * Base container

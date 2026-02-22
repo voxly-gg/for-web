@@ -3,7 +3,7 @@ import { Accessor, JSX, Show } from "solid-js";
 import { css, cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { Breadcrumbs, IconButton, Text } from "@revolt/ui";
+import { Breadcrumbs, IconButton, Text } from "@voxly/ui";
 
 import MdClose from "@material-design-icons/svg/outlined/close.svg?component-solid";
 

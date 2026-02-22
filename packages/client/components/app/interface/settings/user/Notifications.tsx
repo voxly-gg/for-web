@@ -6,7 +6,7 @@ import {
   CategoryCollapse,
   Checkbox,
   iconSize,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import MdNotifications from "@material-design-icons/svg/outlined/notifications.svg?component-solid";
 import MdSpeaker from "@material-design-icons/svg/outlined/speaker.svg?component-solid";

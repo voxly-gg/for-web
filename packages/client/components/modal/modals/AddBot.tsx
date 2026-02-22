@@ -2,13 +2,13 @@ import { createFormControl, createFormGroup } from "solid-forms";
 import { Show, createMemo, createSignal } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import { Server } from "stoat.js";
+import { Server } from "voxly.js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 import { decodeTime } from "ulid";
 
-import { useClient } from "@revolt/client";
-import { Markdown } from "@revolt/markdown";
+import { useClient } from "@voxly/client";
+import { Markdown } from "@voxly/markdown";
 import {
   Avatar,
   Column,
@@ -19,7 +19,7 @@ import {
   Text,
   TextField,
   Time,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import { useModals } from "..";
 import { Modals } from "../types";

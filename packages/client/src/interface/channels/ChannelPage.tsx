@@ -1,10 +1,10 @@
 import { Component, Match, Switch, createMemo } from "solid-js";
 
-import { Channel } from "stoat.js";
+import { Channel } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import { Navigate, useParams } from "@revolt/routing";
+import { useClient } from "@voxly/client";
+import { Navigate, useParams } from "@voxly/routing";
 
 import { AgeGate } from "./AgeGate";
 import { TextChannel } from "./text/TextChannel";

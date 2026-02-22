@@ -2,10 +2,10 @@ import { For, Match, Show, Switch } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 import dayjs from "dayjs";
-import { Channel } from "stoat.js";
+import { Channel } from "voxly.js";
 
-import { useState } from "@revolt/state";
-import { Column, Text, Time } from "@revolt/ui";
+import { useState } from "@voxly/state";
+import { Column, Text, Time } from "@voxly/ui";
 
 import MdAlternateEmail from "@material-design-icons/svg/outlined/alternate_email.svg?component-solid";
 import MdNotificationsActive from "@material-design-icons/svg/outlined/notifications_active.svg?component-solid";

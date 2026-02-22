@@ -3,7 +3,7 @@ import { createMemo, createSignal } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
 
-import { useClient } from "@revolt/client";
+import { useClient } from "@voxly/client";
 import {
   Avatar,
   Column,
@@ -12,7 +12,7 @@ import {
   Form2,
   Row,
   TextField,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import { useModals } from "..";
 import { Modals } from "../types";

@@ -2,10 +2,10 @@ import { Match, Show, Switch, createSignal, onMount } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useApi, useClientLifecycle } from "@revolt/client";
-import { useModals } from "@revolt/modal";
-import { useNavigate, useParams } from "@revolt/routing";
-import { Button, CircularProgress } from "@revolt/ui";
+import { useApi, useClientLifecycle } from "@voxly/client";
+import { useModals } from "@voxly/modal";
+import { useNavigate, useParams } from "@voxly/routing";
+import { Button, CircularProgress } from "@voxly/ui";
 
 import { FlowTitle } from "./Flow";
 

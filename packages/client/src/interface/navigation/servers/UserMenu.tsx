@@ -13,7 +13,7 @@ import { Motion, Presence } from "solid-motionone";
 
 import { autoUpdate, offset, shift } from "@floating-ui/dom";
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import { API } from "stoat.js";
+import { API } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
 import {
@@ -21,11 +21,11 @@ import {
   ContextMenuButton,
   ContextMenuDivider,
   ContextMenuItem,
-} from "@revolt/app/menus/ContextMenu";
-import { useClient, useUser } from "@revolt/client";
-import { useModals } from "@revolt/modal";
-import { useState } from "@revolt/state";
-import { Avatar, Column, Row, Text, UserStatus, iconSize } from "@revolt/ui";
+} from "@voxly/app/menus/ContextMenu";
+import { useClient, useUser } from "@voxly/client";
+import { useModals } from "@voxly/modal";
+import { useState } from "@voxly/state";
+import { Avatar, Column, Row, Text, UserStatus, iconSize } from "@voxly/ui";
 
 import MdContactPage from "@material-design-icons/svg/outlined/contact_page.svg?component-solid";
 import MdDelete from "@material-design-icons/svg/outlined/delete.svg?component-solid";

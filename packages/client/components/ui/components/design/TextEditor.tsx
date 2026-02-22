@@ -34,20 +34,20 @@ import { keymap } from "prosemirror-keymap";
 import { Node } from "prosemirror-model";
 import { EditorState, EditorStateConfig, Selection } from "prosemirror-state";
 import { EditorView } from "prosemirror-view";
-import { Channel, ServerMember, ServerRole, User } from "stoat.js";
+import { Channel, ServerMember, ServerRole, User } from "voxly.js";
 import { css, cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import { CustomEmoji, UnicodeEmoji } from "@revolt/markdown/emoji";
-import { unicodeEmojiUrl } from "@revolt/markdown/emoji/UnicodeEmoji";
+import { useClient } from "@voxly/client";
+import { CustomEmoji, UnicodeEmoji } from "@voxly/markdown/emoji";
+import { unicodeEmojiUrl } from "@voxly/markdown/emoji/UnicodeEmoji";
 import {
   blankModel,
   markdownFromProseMirrorModel,
   markdownToProseMirrorModel,
   schema,
-} from "@revolt/markdown/prosemirror";
-import { useState } from "@revolt/state";
+} from "@voxly/markdown/prosemirror";
+import { useState } from "@voxly/state";
 
 import emojiMapping from "../../emojiMapping.json";
 import { AutoCompleteSearchSpace } from "../utils/autoComplete";

@@ -4,8 +4,8 @@ import { Accessor, JSX, Match, Show, Switch, onMount } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { Row } from "@revolt/ui";
-import { AutoCompleteSearchSpace } from "@revolt/ui/components/utils/autoComplete";
+import { Row } from "@voxly/ui";
+import { AutoCompleteSearchSpace } from "@voxly/ui/components/utils/autoComplete";
 
 import { TextEditor2 } from "../../texteditor/TextEditor2";
 

@@ -1,7 +1,7 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useState } from "@revolt/state";
-import { CategoryButton, Checkbox, Column, Text } from "@revolt/ui";
+import { useState } from "@voxly/state";
+import { CategoryButton, Checkbox, Column, Text } from "@voxly/ui";
 
 /**
  * Voice processing options

@@ -2,7 +2,7 @@ import { createEffect, on, onCleanup } from "solid-js";
 
 import { ProtocolV1 } from "stoat.js/lib/events/v1";
 
-import { useClient } from "@revolt/client";
+import { useClient } from "@voxly/client";
 
 import { useState } from ".";
 

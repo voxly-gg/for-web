@@ -2,10 +2,10 @@ import { createFormControl, createFormGroup } from "solid-forms";
 import { For, Show, createEffect, on } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import type { API } from "stoat.js";
+import type { API } from "voxly.js";
 
-import { useClient } from "@revolt/client";
-import { CONFIGURATION } from "@revolt/common";
+import { useClient } from "@voxly/client";
+import { CONFIGURATION } from "@voxly/common";
 import {
   CircularProgress,
   Column,
@@ -13,7 +13,7 @@ import {
   MenuItem,
   Row,
   Text,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import { ServerSettingsProps } from "../ServerSettings";
 

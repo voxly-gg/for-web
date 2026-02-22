@@ -1,13 +1,13 @@
 import { Accessor, Setter, createSignal } from "solid-js";
 
 import { detect } from "detect-browser";
-import { API, Client, ConnectionState } from "stoat.js";
+import { API, Client, ConnectionState } from "voxly.js";
 import { ProtocolV1 } from "stoat.js/lib/events/v1";
 
-import { CONFIGURATION } from "@revolt/common";
-import { ModalControllerExtended } from "@revolt/modal";
-import type { State as ApplicationState } from "@revolt/state";
-import type { Session } from "@revolt/state/stores/Auth";
+import { CONFIGURATION } from "@voxly/common";
+import { ModalControllerExtended } from "@voxly/modal";
+import type { State as ApplicationState } from "@voxly/state";
+import type { Session } from "@voxly/state/stores/Auth";
 
 export enum State {
   Ready = "Ready",

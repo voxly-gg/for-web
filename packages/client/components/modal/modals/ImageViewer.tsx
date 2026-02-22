@@ -14,8 +14,8 @@ import Panzoom, { PanzoomObject } from "@panzoom/panzoom";
 import { css } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { Column, Dialog, DialogProps, IconButton, Text } from "@revolt/ui";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+import { Column, Dialog, DialogProps, IconButton, Text } from "@voxly/ui";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 import { Modals } from "../types";
 

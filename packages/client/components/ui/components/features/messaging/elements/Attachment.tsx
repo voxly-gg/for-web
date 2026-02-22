@@ -1,13 +1,13 @@
 import { Match, Show, Switch } from "solid-js";
 
-import { File, ImageEmbed, Message, VideoEmbed } from "stoat.js";
+import { File, ImageEmbed, Message, VideoEmbed } from "voxly.js";
 import { css } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { MessageContextMenu } from "@revolt/app";
-import { useModals } from "@revolt/modal";
-import { Column } from "@revolt/ui/components/layout";
-import { SizedContent, Spoiler } from "@revolt/ui/components/utils";
+import { MessageContextMenu } from "@voxly/app";
+import { useModals } from "@voxly/modal";
+import { Column } from "@voxly/ui/components/layout";
+import { SizedContent, Spoiler } from "@voxly/ui/components/utils";
 
 import { FileInfo } from "./FileInfo";
 import { TextFile } from "./TextFile";

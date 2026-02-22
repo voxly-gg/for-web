@@ -4,7 +4,7 @@ import { useQuery } from "@tanstack/solid-query";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { useModals } from "@revolt/modal";
+import { useModals } from "@voxly/modal";
 
 import { Profile } from "../features";
 

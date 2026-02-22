@@ -1,9 +1,9 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useApi } from "@revolt/client";
-import { CONFIGURATION } from "@revolt/common";
-import { useNavigate } from "@revolt/routing";
-import { Button } from "@revolt/ui";
+import { useApi } from "@voxly/client";
+import { CONFIGURATION } from "@voxly/common";
+import { useNavigate } from "@voxly/routing";
+import { Button } from "@voxly/ui";
 
 import { FlowTitle } from "./Flow";
 import { setFlowCheckEmail } from "./FlowCheck";

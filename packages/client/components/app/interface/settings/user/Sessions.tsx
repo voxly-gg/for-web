@@ -16,11 +16,11 @@ import {
 } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { Session } from "stoat.js";
+import { Session } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
+import { useClient } from "@voxly/client";
+import { useModals } from "@voxly/modal";
 import {
   CategoryButton,
   CategoryButtonGroup,
@@ -29,7 +29,7 @@ import {
   Column,
   Time,
   iconSize,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import MdLogout from "@material-design-icons/svg/outlined/logout.svg?component-solid";
 

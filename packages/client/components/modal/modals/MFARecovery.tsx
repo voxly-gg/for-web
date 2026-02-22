@@ -3,7 +3,7 @@ import { For, createSignal } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { Dialog, DialogProps, Text } from "@revolt/ui";
+import { Dialog, DialogProps, Text } from "@voxly/ui";
 
 import { useModals } from "..";
 import { Modals } from "../types";

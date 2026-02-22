@@ -5,8 +5,8 @@ import { cva } from "styled-system/css";
 import { Plugin } from "unified";
 import { visit } from "unist-util-visit";
 
-import { useClient } from "@revolt/client";
-import { Avatar, Column, Row } from "@revolt/ui";
+import { useClient } from "@voxly/client";
+import { Avatar, Column, Row } from "@voxly/ui";
 
 import { CustomEmoji, Emoji, RE_CUSTOM_EMOJI } from "../emoji";
 

@@ -1,6 +1,6 @@
 import { Accessor, createSignal } from "solid-js";
 
-import { Channel, Server } from "stoat.js";
+import { Channel, Server } from "voxly.js";
 
 import { State } from "..";
 

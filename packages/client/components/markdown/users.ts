@@ -1,11 +1,11 @@
 import { Accessor, createMemo } from "solid-js";
 
-import { ServerMember, User } from "stoat.js";
+import { ServerMember, User } from "voxly.js";
 
-import { useClient } from "@revolt/client";
-import { useSmartParams } from "@revolt/routing";
+import { useClient } from "@voxly/client";
+import { useSmartParams } from "@voxly/routing";
 
-// TODO: move to @revolt/common?
+// TODO: move to @voxly/common?
 
 /**
  * Resolved user information

@@ -4,9 +4,9 @@ import { Motion, Presence } from "solid-motionone";
 import { css } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { useClientLifecycle } from "@revolt/client";
-import { State, TransitionType } from "@revolt/client/Controller";
-import { Button, Ripple, symbolSize, typography } from "@revolt/ui";
+import { useClientLifecycle } from "@voxly/client";
+import { State, TransitionType } from "@voxly/client/Controller";
+import { Button, Ripple, symbolSize, typography } from "@voxly/ui";
 
 import MdBuild from "@material-symbols/svg-400/outlined/build.svg?component-solid";
 import MdClose from "@material-symbols/svg-400/outlined/close.svg?component-solid";

@@ -1,14 +1,14 @@
 import { Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { Server } from "stoat.js";
+import { Server } from "voxly.js";
 import { css } from "styled-system/css";
 
-import { useClient, useClientLifecycle } from "@revolt/client";
-import { useUser } from "@revolt/markdown/users";
-import { useModals } from "@revolt/modal";
-import { ColouredText, Column, Text, iconSize } from "@revolt/ui";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+import { useClient, useClientLifecycle } from "@voxly/client";
+import { useUser } from "@voxly/markdown/users";
+import { useModals } from "@voxly/modal";
+import { ColouredText, Column, Text, iconSize } from "@voxly/ui";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 import MdAccountCircle from "@material-design-icons/svg/outlined/account_circle.svg?component-solid";
 import MdCoffee from "@material-design-icons/svg/outlined/coffee.svg?component-solid";

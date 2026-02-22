@@ -1,8 +1,8 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { CONFIGURATION } from "@revolt/common";
-import { useNavigate } from "@revolt/routing";
-import { Button, Row, iconSize } from "@revolt/ui";
+import { CONFIGURATION } from "@voxly/common";
+import { useNavigate } from "@voxly/routing";
+import { Button, Row, iconSize } from "@voxly/ui";
 
 import MdArrowBack from "@material-design-icons/svg/filled/arrow_back.svg?component-solid";
 

@@ -1,6 +1,6 @@
-import type { WebsiteEmbed } from "stoat.js";
+import type { WebsiteEmbed } from "voxly.js";
 
-import { SizedContent } from "@revolt/ui/components/utils";
+import { SizedContent } from "@voxly/ui/components/utils";
 
 /**
  * Special Embed

@@ -10,10 +10,10 @@ import {
 import { Track } from "livekit-client";
 import { styled } from "styled-system/jsx";
 
-import { useUser } from "@revolt/markdown/users";
-import { Avatar } from "@revolt/ui/components/design";
-import { Row } from "@revolt/ui/components/layout";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+import { useUser } from "@voxly/markdown/users";
+import { Avatar } from "@voxly/ui/components/design";
+import { Row } from "@voxly/ui/components/layout";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 import { VoiceCallCardActions } from "./VoiceCallCardActions";
 import { VoiceCallCardStatus } from "./VoiceCallCardStatus";

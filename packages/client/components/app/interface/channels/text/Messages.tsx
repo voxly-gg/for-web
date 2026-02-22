@@ -16,25 +16,25 @@ import {
 } from "solid-js";
 
 import isEqual from "lodash.isequal";
-import { Channel, Message as MessageInterface } from "stoat.js";
+import { Channel, Message as MessageInterface } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { useClient, useClientLifecycle } from "@revolt/client";
-import { State } from "@revolt/client/Controller";
-import { useTime } from "@revolt/i18n";
-import { useState } from "@revolt/state";
+import { useClient, useClientLifecycle } from "@voxly/client";
+import { State } from "@voxly/client/Controller";
+import { useTime } from "@voxly/i18n";
+import { useState } from "@voxly/state";
 import {
   BlockedMessage,
   ConversationStart,
   Deferred,
   JumpToBottom,
   MessageDivider,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import {
   ListView2,
   ListView2Update,
-} from "@revolt/ui/components/utils/ListView2";
+} from "@voxly/ui/components/utils/ListView2";
 import { Message } from "./Message";
 import { useMessageCache } from "./MessageCache";
 

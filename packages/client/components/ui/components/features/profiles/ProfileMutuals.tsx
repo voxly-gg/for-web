@@ -1,11 +1,11 @@
 import { For, Show } from "solid-js";
 
 import { useQuery } from "@tanstack/solid-query";
-import { User } from "stoat.js";
+import { User } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
+import { useClient } from "@voxly/client";
+import { useModals } from "@voxly/modal";
 
 import { Avatar, Ripple, Text } from "../../design";
 import { dismissFloatingElements } from "../../floating";

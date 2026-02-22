@@ -6,7 +6,7 @@ import {
   ViewPlugin,
   ViewUpdate,
 } from "@codemirror/view";
-import { RE_TIMESTAMP } from "@revolt/markdown/plugins/timestamps";
+import { RE_TIMESTAMP } from "@voxly/markdown/plugins/timestamps";
 
 const spoilerMark = Decoration.mark({
   class: "cm-spoiler-mark",

@@ -2,8 +2,8 @@ import { Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useNavigate } from "@revolt/routing";
-import { Button, Row, iconSize } from "@revolt/ui";
+import { useNavigate } from "@voxly/routing";
+import { Button, Row, iconSize } from "@voxly/ui";
 
 import MdArrowBack from "@material-design-icons/svg/filled/arrow_back.svg?component-solid";
 

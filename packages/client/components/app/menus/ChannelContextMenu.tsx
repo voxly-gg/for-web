@@ -1,10 +1,10 @@
 import { Match, Show, Switch } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { Channel } from "stoat.js";
+import { Channel } from "voxly.js";
 
-import { useModals } from "@revolt/modal";
-import { useState } from "@revolt/state";
+import { useModals } from "@voxly/modal";
+import { useState } from "@voxly/state";
 
 import MdBadge from "@material-design-icons/svg/outlined/badge.svg?component-solid";
 import MdDelete from "@material-design-icons/svg/outlined/delete.svg?component-solid";

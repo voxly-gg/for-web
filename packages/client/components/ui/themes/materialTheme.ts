@@ -13,7 +13,7 @@ import {
   hexFromArgb,
 } from "@material/material-color-utilities";
 
-import { SelectedTheme, TypeTheme } from "@revolt/state/stores/Theme";
+import { SelectedTheme, TypeTheme } from "@voxly/state/stores/Theme";
 
 /**
  * Generate the Material variables from the given properties

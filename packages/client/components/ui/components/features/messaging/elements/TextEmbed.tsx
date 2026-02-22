@@ -1,15 +1,15 @@
 import { Match, Show, Switch } from "solid-js";
 
-import { TextEmbed as TextEmbedClass, WebsiteEmbed } from "stoat.js";
+import { TextEmbed as TextEmbedClass, WebsiteEmbed } from "voxly.js";
 import { css } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { Markdown } from "@revolt/markdown";
-import { RenderAnchor } from "@revolt/markdown/plugins/anchors";
-import { useModals } from "@revolt/modal";
-import { Text } from "@revolt/ui/components/design";
-import { Column } from "@revolt/ui/components/layout";
-import { OverflowingText, SizedContent } from "@revolt/ui/components/utils";
+import { Markdown } from "@voxly/markdown";
+import { RenderAnchor } from "@voxly/markdown/plugins/anchors";
+import { useModals } from "@voxly/modal";
+import { Text } from "@voxly/ui/components/design";
+import { Column } from "@voxly/ui/components/layout";
+import { OverflowingText, SizedContent } from "@voxly/ui/components/utils";
 
 import { Attachment } from "./Attachment";
 import { SpecialEmbed } from "./SpecialEmbed";

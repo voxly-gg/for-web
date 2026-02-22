@@ -1,7 +1,7 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useError } from "@revolt/i18n";
-import { Dialog, DialogProps, iconSize } from "@revolt/ui";
+import { useError } from "@voxly/i18n";
+import { Dialog, DialogProps, iconSize } from "@voxly/ui";
 
 import MdError from "@material-design-icons/svg/outlined/error.svg?component-solid";
 

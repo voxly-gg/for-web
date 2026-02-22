@@ -3,10 +3,10 @@ import { For, Match, Show, Switch } from "solid-js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { CONFIGURATION } from "@revolt/common";
-import { ALLOWED_IMAGE_TYPES } from "@revolt/state/stores/Draft";
-import { Ripple, typography } from "@revolt/ui/components/design";
-import { OverflowingText, iconSize } from "@revolt/ui/components/utils";
+import { CONFIGURATION } from "@voxly/common";
+import { ALLOWED_IMAGE_TYPES } from "@voxly/state/stores/Draft";
+import { Ripple, typography } from "@voxly/ui/components/design";
+import { OverflowingText, iconSize } from "@voxly/ui/components/utils";
 
 import MdAdd from "@material-design-icons/svg/outlined/add.svg?component-solid";
 import MdCancel from "@material-design-icons/svg/outlined/cancel.svg?component-solid";

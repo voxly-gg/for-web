@@ -3,7 +3,7 @@ import { For } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { useNavigate } from "@solidjs/router";
 
-import { Avatar, Dialog, DialogProps, List, OverflowingText } from "@revolt/ui";
+import { Avatar, Dialog, DialogProps, List, OverflowingText } from "@voxly/ui";
 
 import { useModals } from "..";
 import { Modals } from "../types";

@@ -2,13 +2,13 @@ import { Match, Show, Switch, createEffect, createMemo, on } from "solid-js";
 
 import { useLingui } from "@lingui-solid/solid/macro";
 import { VirtualContainer } from "@minht11/solid-virtual-container";
-import { Channel, ServerMember, User } from "stoat.js";
+import { Channel, ServerMember, User } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { floatingUserMenus } from "@revolt/app/menus/UserContextMenu";
-import { useClient } from "@revolt/client";
-import { TextWithEmoji } from "@revolt/markdown";
-import { userInformation } from "@revolt/markdown/users";
+import { floatingUserMenus } from "@voxly/app/menus/UserContextMenu";
+import { useClient } from "@voxly/client";
+import { TextWithEmoji } from "@voxly/markdown";
+import { userInformation } from "@voxly/markdown/users";
 import {
   Avatar,
   Deferred,
@@ -19,7 +19,7 @@ import {
   UserStatus,
   Username,
   typography,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 interface Props {
   /**

@@ -1,18 +1,18 @@
 import { Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import type { API } from "stoat.js";
-import { Channel, Server } from "stoat.js";
+import type { API } from "voxly.js";
+import { Channel, Server } from "voxly.js";
 
-import { useModals } from "@revolt/modal";
-import { useState } from "@revolt/state";
+import { useModals } from "@voxly/modal";
+import { useState } from "@voxly/state";
 
 import MdBadge from "@material-design-icons/svg/outlined/badge.svg?component-solid";
 import MdDelete from "@material-design-icons/svg/outlined/delete.svg?component-solid";
 import MdLibraryAdd from "@material-design-icons/svg/outlined/library_add.svg?component-solid";
 import MdMarkChatRead from "@material-design-icons/svg/outlined/mark_chat_read.svg?component-solid";
 
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 import {
   ContextMenu,
   ContextMenuButton,

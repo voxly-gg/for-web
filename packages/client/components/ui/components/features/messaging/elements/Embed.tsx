@@ -6,11 +6,11 @@ import {
   TextEmbed as TextEmbedClass,
   VideoEmbed,
   WebsiteEmbed,
-} from "stoat.js";
+} from "voxly.js";
 import { css } from "styled-system/css";
 
-import { useModals } from "@revolt/modal";
-import { SizedContent } from "@revolt/ui/components/utils";
+import { useModals } from "@voxly/modal";
+import { SizedContent } from "@voxly/ui/components/utils";
 
 import { TextEmbed } from "./TextEmbed";
 

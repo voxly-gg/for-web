@@ -1,17 +1,17 @@
 import { Accessor, For, JSX, Show, createMemo, createSignal } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { Channel, Server, User } from "stoat.js";
+import { Channel, Server, User } from "voxly.js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import { CONFIGURATION } from "@revolt/common";
-import { KeybindAction, createKeybind } from "@revolt/keybinds";
-import { useModals } from "@revolt/modal";
-import { useNavigate } from "@revolt/routing";
-import { useState } from "@revolt/state";
-import { Avatar, Column, Text, Time, Unreads, UserStatus } from "@revolt/ui";
+import { useClient } from "@voxly/client";
+import { CONFIGURATION } from "@voxly/common";
+import { KeybindAction, createKeybind } from "@voxly/keybinds";
+import { useModals } from "@voxly/modal";
+import { useNavigate } from "@voxly/routing";
+import { useState } from "@voxly/state";
+import { Avatar, Column, Text, Time, Unreads, UserStatus } from "@voxly/ui";
 
 import MdAdd from "@material-design-icons/svg/filled/add.svg?component-solid";
 import MdExplore from "@material-design-icons/svg/filled/explore.svg?component-solid";
@@ -21,7 +21,7 @@ import MdSettings from "@material-design-icons/svg/filled/settings.svg?component
 import { Tooltip } from "../../../../components/ui/components/floating";
 import { Draggable } from "../../../../components/ui/components/utils/Draggable";
 
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 import { UserMenu } from "./UserMenu";
 
 interface Props {
@@ -302,7 +302,7 @@ export const ServerList = (props: Props) => {
             <Avatar size={42} fallback={<MdAdd />} />
           </a>
         </Tooltip>
-        <Show when={CONFIGURATION.IS_STOAT}>
+        <Show when={CONFIGURATION.IS_VOXLY}>
           <Tooltip placement="right" content={"Find new servers to join"}>
             <a
               href={state.layout.getLastActiveDiscoverPath()}

@@ -1,4 +1,4 @@
-import { paramsFromPathname } from "@revolt/routing";
+import { paramsFromPathname } from "@voxly/routing";
 
 import { State } from "..";
 

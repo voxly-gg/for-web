@@ -4,9 +4,9 @@ import { Trans } from "@lingui-solid/solid/macro";
 import { useQuery } from "@tanstack/solid-query";
 import { styled } from "styled-system/jsx";
 
-import { useState } from "@revolt/state";
-import { LAYOUT_SECTIONS } from "@revolt/state/stores/Layout";
-import { Button, Checkbox, CircularProgress, Text, iconSize } from "@revolt/ui";
+import { useState } from "@voxly/state";
+import { LAYOUT_SECTIONS } from "@voxly/state/stores/Layout";
+import { Button, Checkbox, CircularProgress, Text, iconSize } from "@voxly/ui";
 
 import MdWarning from "@material-design-icons/svg/round/warning.svg?component-solid";
 

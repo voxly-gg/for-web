@@ -2,13 +2,13 @@ import { JSX, Match, Show, Switch } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 import { useNavigate } from "@solidjs/router";
-import { Channel, Message, ServerMember, User } from "stoat.js";
+import { Channel, Message, ServerMember, User } from "voxly.js";
 
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
-import { useSmartParams } from "@revolt/routing";
-import { useState } from "@revolt/state";
-import { Slider, Text } from "@revolt/ui";
+import { useClient } from "@voxly/client";
+import { useModals } from "@voxly/modal";
+import { useSmartParams } from "@voxly/routing";
+import { useState } from "@voxly/state";
+import { Slider, Text } from "@voxly/ui";
 
 import MdAddCircleOutline from "@material-design-icons/svg/outlined/add_circle_outline.svg?component-solid";
 import MdAdminPanelSettings from "@material-design-icons/svg/outlined/admin_panel_settings.svg?component-solid";

@@ -1,7 +1,7 @@
 import { Component, Match, Switch, createMemo } from "solid-js";
 
-import { useClient } from "@revolt/client";
-import { Navigate, useParams } from "@revolt/routing";
+import { useClient } from "@voxly/client";
+import { Navigate, useParams } from "@voxly/routing";
 
 /**
  * Server home component

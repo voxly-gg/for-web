@@ -12,12 +12,12 @@ import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 import { decodeTime, ulid } from "ulid";
 
-import { DraftMessages, Messages } from "@revolt/app";
-import { useClient } from "@revolt/client";
-import { Keybind, KeybindAction, createKeybind } from "@revolt/keybinds";
-import { useNavigate, useSmartParams } from "@revolt/routing";
-import { useState } from "@revolt/state";
-import { LAYOUT_SECTIONS } from "@revolt/state/stores/Layout";
+import { DraftMessages, Messages } from "@voxly/app";
+import { useClient } from "@voxly/client";
+import { Keybind, KeybindAction, createKeybind } from "@voxly/keybinds";
+import { useNavigate, useSmartParams } from "@voxly/routing";
+import { useState } from "@voxly/state";
+import { LAYOUT_SECTIONS } from "@voxly/state/stores/Layout";
 import {
   BelowFloatingHeader,
   Header,
@@ -25,8 +25,8 @@ import {
   Text,
   TypingIndicator,
   main,
-} from "@revolt/ui";
-import { VoiceChannelCallCardMount } from "@revolt/ui/components/features/voice/callCard/VoiceCallCard";
+} from "@voxly/ui";
+import { VoiceChannelCallCardMount } from "@voxly/ui/components/features/voice/callCard/VoiceCallCard";
 
 import { ChannelHeader } from "../ChannelHeader";
 import { ChannelPageProps } from "../ChannelPage";

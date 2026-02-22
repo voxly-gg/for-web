@@ -1,9 +1,9 @@
 import { Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { ServerMember, User } from "stoat.js";
+import { ServerMember, User } from "voxly.js";
 
-import { useTime } from "@revolt/i18n";
+import { useTime } from "@voxly/i18n";
 
 import { Text } from "../../design";
 import { OverflowingText } from "../../utils";

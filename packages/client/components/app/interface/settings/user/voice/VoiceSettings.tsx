@@ -1,4 +1,4 @@
-import { Column } from "@revolt/ui";
+import { Column } from "@voxly/ui";
 
 import { VoiceInputOptions } from "./VoiceInputOptions";
 import { VoiceProcessingOptions } from "./VoiceProcessingOptions";

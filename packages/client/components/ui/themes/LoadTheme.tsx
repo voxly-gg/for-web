@@ -1,11 +1,11 @@
 import { createEffect } from "solid-js";
 
-import { useState } from "@revolt/state";
+import { useState } from "@voxly/state";
 
 import {
   createMaterialColourVariables,
   createMduiColourTriplets,
-  createStoatWebVariables,
+  createVoxlyWebVariables,
 } from ".";
 import { Masks } from "./Masks";
 import { FONTS, MONOSPACE_FONTS } from "./fonts";
@@ -35,8 +35,8 @@ export function LoadTheme() {
         }),
         {},
       ),
-      // mount Stoat for Web variables
-      ...createStoatWebVariables(activeTheme),
+      // mount Voxly for Web variables
+      ...createVoxlyWebVariables(activeTheme),
       // mount --md-sys-color variables
       ...createMaterialColourVariables(activeTheme, "--md-sys-color-"),
       // mount --mdui-color triplet variables

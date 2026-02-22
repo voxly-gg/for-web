@@ -8,16 +8,16 @@ import {
 } from "solid-js";
 
 import { VirtualContainer } from "@minht11/solid-virtual-container";
-import { Emoji, Server } from "stoat.js";
+import { Emoji, Server } from "voxly.js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import { UnicodeEmoji } from "@revolt/markdown/emoji";
-import { UNICODE_EMOJI_PACK_PUA } from "@revolt/markdown/emoji/UnicodeEmoji";
-import { useState } from "@revolt/state";
-import { Avatar, Ripple, TextField } from "@revolt/ui/components/design";
-import { Row } from "@revolt/ui/components/layout";
+import { useClient } from "@voxly/client";
+import { UnicodeEmoji } from "@voxly/markdown/emoji";
+import { UNICODE_EMOJI_PACK_PUA } from "@voxly/markdown/emoji/UnicodeEmoji";
+import { useState } from "@voxly/state";
+import { Avatar, Ripple, TextField } from "@voxly/ui/components/design";
+import { Row } from "@voxly/ui/components/layout";
 
 import emojiMapping from "../../../../../emojiMapping.json";
 

@@ -2,12 +2,12 @@ import { createFormControl, createFormGroup } from "solid-forms";
 import { Match, Show, Switch } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import type { API } from "stoat.js";
+import type { API } from "voxly.js";
 
-import { useClient } from "@revolt/client";
-import { CONFIGURATION } from "@revolt/common";
-import { useModals } from "@revolt/modal";
-import { Button, CircularProgress, Column, Form2, Row, Text } from "@revolt/ui";
+import { useClient } from "@voxly/client";
+import { CONFIGURATION } from "@voxly/common";
+import { useModals } from "@voxly/modal";
+import { Button, CircularProgress, Column, Form2, Row, Text } from "@voxly/ui";
 
 import { ChannelSettingsProps } from "../ChannelSettings";
 

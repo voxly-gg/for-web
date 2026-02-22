@@ -5,7 +5,7 @@ import { getTrackReferenceId, isLocal } from "@livekit/components-core";
 import { Key } from "@solid-primitives/keyed";
 import { RemoteTrackPublication, Track } from "livekit-client";
 
-import { useState } from "@revolt/state";
+import { useState } from "@voxly/state";
 
 import { useVoice } from "../state";
 

@@ -6,11 +6,11 @@ import {
   Channel,
   DEFAULT_PERMISSION_DIRECT_MESSAGE,
   Server,
-} from "stoat.js";
+} from "voxly.js";
 import { css } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { Button, Checkbox2, OverrideSwitch, Row, Text } from "@revolt/ui";
+import { Button, Checkbox2, OverrideSwitch, Row, Text } from "@voxly/ui";
 
 type Props =
   | { type: "server_default"; context: Server }

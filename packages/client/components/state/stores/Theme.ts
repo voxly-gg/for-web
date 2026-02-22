@@ -1,6 +1,6 @@
 import { Accessor, createSignal } from "solid-js";
 
-import { Fonts, MonospaceFonts } from "@revolt/ui/themes/fonts";
+import { Fonts, MonospaceFonts } from "@voxly/ui/themes/fonts";
 
 import { State } from "..";
 

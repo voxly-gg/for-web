@@ -10,10 +10,10 @@ import {
   TextSystemMessage,
   UserModeratedSystemMessage,
   UserSystemMessage,
-} from "stoat.js";
+} from "voxly.js";
 
-import { useNavigate, useSmartParams } from "@revolt/routing";
-import { useState } from "@revolt/state";
+import { useNavigate, useSmartParams } from "@voxly/routing";
+import { useState } from "@voxly/state";
 
 import { useClient } from ".";
 

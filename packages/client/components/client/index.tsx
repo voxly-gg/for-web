@@ -8,14 +8,14 @@ import {
   useContext,
 } from "solid-js";
 
-import type { Client, User } from "stoat.js";
+import type { Client, User } from "voxly.js";
 
-import { useModals } from "@revolt/modal";
-import { State } from "@revolt/state";
+import { useModals } from "@voxly/modal";
+import { State } from "@voxly/state";
 
 import { State as LifecycleState } from "./Controller";
 
-import { CHANGELOG_MODAL_CONST } from "@revolt/modal/modals/Changelog";
+import { CHANGELOG_MODAL_CONST } from "@voxly/modal/modals/Changelog";
 import ClientController from "./Controller";
 
 export type { default as ClientController } from "./Controller";

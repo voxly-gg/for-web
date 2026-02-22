@@ -1,14 +1,14 @@
 import { Match, Show, Switch } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { PublicChannelInvite } from "stoat.js";
+import { PublicChannelInvite } from "voxly.js";
 import { css, cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { IS_DEV, useClient } from "@revolt/client";
-import { CONFIGURATION } from "@revolt/common";
-import { useModals } from "@revolt/modal";
-import { useNavigate } from "@revolt/routing";
+import { IS_DEV, useClient } from "@voxly/client";
+import { CONFIGURATION } from "@voxly/common";
+import { useModals } from "@voxly/modal";
+import { useNavigate } from "@voxly/routing";
 import {
   Button,
   CategoryButton,
@@ -16,7 +16,7 @@ import {
   Header,
   iconSize,
   main,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import MdAddCircle from "@material-design-icons/svg/filled/add_circle.svg?component-solid";
 import MdExplore from "@material-design-icons/svg/filled/explore.svg?component-solid";
@@ -95,8 +95,8 @@ export function HomePage() {
   const navigate = useNavigate();
   const client = useClient();
 
-  // check if we're stoat.chat; if so, check if the user is in the Lounge
-  const showLoungeButton = CONFIGURATION.IS_STOAT;
+  // check if we're voxly.gg; if so, check if the user is in the Lounge
+  const showLoungeButton = CONFIGURATION.IS_VOXLY;
   const isInLounge =
     client()!.servers.get("01F7ZSBSFHQ8TA81725KQCSDDP") !== undefined;
 
@@ -148,7 +148,7 @@ export function HomePage() {
                   }
                   icon={<MdGroups3 />}
                 >
-                  <Trans>Go to the Stoat Lounge</Trans>
+                  <Trans>Go to the Voxly Lounge</Trans>
                 </CategoryButton>
               </Match>
               <Match when={showLoungeButton && !isInLounge}>
@@ -169,7 +169,7 @@ export function HomePage() {
                   }
                   icon={<MdGroups3 />}
                 >
-                  <Trans>Join the Stoat Lounge</Trans>
+                  <Trans>Join the Voxly Lounge</Trans>
                 </CategoryButton>
               </Match>
             </Switch>
@@ -185,11 +185,11 @@ export function HomePage() {
               }
               icon={<MdPayments />}
             >
-              <Trans>Donate to Stoat</Trans>
+              <Trans>Donate to Voxly</Trans>
             </CategoryButton>
           </SeparatedColumn>
           <SeparatedColumn>
-            <Show when={CONFIGURATION.IS_STOAT}>
+            <Show when={CONFIGURATION.IS_VOXLY}>
               <CategoryButton
                 onClick={() => navigate("/discover")}
                 description={
@@ -199,7 +199,7 @@ export function HomePage() {
                 }
                 icon={<MdExplore />}
               >
-                <Trans>Discover Stoat</Trans>
+                <Trans>Discover Voxly</Trans>
               </CategoryButton>
             </Show>
             <CategoryButton
@@ -217,7 +217,7 @@ export function HomePage() {
               }
               icon={<MdRateReview {...iconSize(22)} />}
             >
-              <Trans>Give feedback on Stoat</Trans>
+              <Trans>Give feedback on Voxly</Trans>
             </CategoryButton>
             <CategoryButton
               onClick={() => openModal({ type: "settings", config: "user" })}

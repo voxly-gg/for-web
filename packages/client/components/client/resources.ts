@@ -1,5 +1,5 @@
 import { createQuery } from "@tanstack/solid-query";
-import { User } from "stoat.js";
+import { User } from "voxly.js";
 
 import { useClient } from ".";
 

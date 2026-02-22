@@ -8,10 +8,10 @@ import {
   useContext,
 } from "solid-js";
 
-import { Channel, Client, Message } from "stoat.js";
+import { Channel, Client, Message } from "voxly.js";
 
-import { useClientLifecycle } from "@revolt/client";
-import { State } from "@revolt/client/Controller";
+import { useClientLifecycle } from "@voxly/client";
+import { State } from "@voxly/client/Controller";
 
 type ChannelState = {
   messages: Message[];

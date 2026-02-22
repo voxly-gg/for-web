@@ -3,18 +3,18 @@ import { Show } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
 import { useMutation } from "@tanstack/solid-query";
-import { API, ChannelWebhook } from "stoat.js";
+import { API, ChannelWebhook } from "voxly.js";
 
-import { useClient } from "@revolt/client";
-import { CONFIGURATION } from "@revolt/common";
-import { useModals } from "@revolt/modal";
+import { useClient } from "@voxly/client";
+import { CONFIGURATION } from "@voxly/common";
+import { useModals } from "@voxly/modal";
 import {
   CategoryButton,
   CircularProgress,
   Column,
   Form2,
   Row,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import MdContentCopy from "@material-design-icons/svg/outlined/content_copy.svg?component-solid";
 import MdDelete from "@material-design-icons/svg/outlined/delete.svg?component-solid";

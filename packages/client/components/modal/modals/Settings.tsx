@@ -2,8 +2,8 @@ import { Show } from "solid-js";
 import { Portal } from "solid-js/web";
 import { Motion, Presence } from "solid-motionone";
 
-import { Settings, SettingsConfigurations } from "@revolt/app";
-import { DialogProps } from "@revolt/ui";
+import { Settings, SettingsConfigurations } from "@voxly/app";
+import { DialogProps } from "@voxly/ui";
 
 import { Modals } from "../types";
 

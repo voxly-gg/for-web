@@ -1,15 +1,15 @@
 import { For, Match, Show, Switch, createSignal, onMount } from "solid-js";
 
 import { useLingui } from "@lingui-solid/solid/macro";
-import { Message as MessageInterface, WebsiteEmbed } from "stoat.js";
+import { Message as MessageInterface, WebsiteEmbed } from "voxly.js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 import { decodeTime } from "ulid";
 
-import { useClient } from "@revolt/client";
-import { useTime } from "@revolt/i18n";
-import { Markdown } from "@revolt/markdown";
-import { useState } from "@revolt/state";
+import { useClient } from "@voxly/client";
+import { useTime } from "@voxly/i18n";
+import { Markdown } from "@voxly/markdown";
+import { useState } from "@voxly/state";
 import {
   Attachment,
   Avatar,
@@ -21,8 +21,8 @@ import {
   SystemMessageIcon,
   Tooltip,
   Username,
-} from "@revolt/ui";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+} from "@voxly/ui";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 import { MessageContextMenu } from "../../../menus/MessageContextMenu";
 import {

@@ -10,11 +10,11 @@ import {
 import { RoomContext } from "solid-livekit-components";
 
 import { Room } from "livekit-client";
-import { Channel } from "stoat.js";
+import { Channel } from "voxly.js";
 
-import { useState } from "@revolt/state";
-import { Voice as VoiceSettings } from "@revolt/state/stores/Voice";
-import { VoiceCallCardContext } from "@revolt/ui/components/features/voice/callCard/VoiceCallCard";
+import { useState } from "@voxly/state";
+import { Voice as VoiceSettings } from "@voxly/state/stores/Voice";
+import { VoiceCallCardContext } from "@voxly/ui/components/features/voice/callCard/VoiceCallCard";
 
 import { InRoom } from "./components/InRoom";
 import { RoomAudioManager } from "./components/RoomAudioManager";

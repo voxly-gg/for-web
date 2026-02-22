@@ -5,14 +5,14 @@ import type {
   CompletionContext,
   CompletionResult,
 } from "@codemirror/autocomplete";
-import { User } from "stoat.js";
+import { User } from "voxly.js";
 
-import { useClient } from "@revolt/client";
+import { useClient } from "@voxly/client";
 import {
   UNICODE_EMOJI_PACK_PUA,
   unicodeEmojiUrl,
-} from "@revolt/markdown/emoji/UnicodeEmoji";
-import { useState } from "@revolt/state";
+} from "@voxly/markdown/emoji/UnicodeEmoji";
+import { useState } from "@voxly/state";
 
 import emojiMapping from "../../../emojiMapping.json";
 import { AutoCompleteSearchSpace } from "../../utils/autoComplete";

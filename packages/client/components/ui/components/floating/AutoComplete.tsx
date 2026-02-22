@@ -1,10 +1,10 @@
 import { For, JSX, Match, Switch } from "solid-js";
 
-import { ServerMember } from "stoat.js";
+import { ServerMember } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { CustomEmoji, UnicodeEmoji } from "@revolt/markdown/emoji";
-import { useState } from "@revolt/state";
+import { CustomEmoji, UnicodeEmoji } from "@voxly/markdown/emoji";
+import { useState } from "@voxly/state";
 
 import { AutoCompleteState } from "../../directives";
 import { Avatar } from "../design";

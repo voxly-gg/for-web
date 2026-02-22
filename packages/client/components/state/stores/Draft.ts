@@ -1,9 +1,9 @@
 import { Accessor, Setter, batch, createSignal } from "solid-js";
 
-import { API, Channel, Client, Message } from "stoat.js";
+import { API, Channel, Client, Message } from "voxly.js";
 import { ulid } from "ulid";
 
-import { CONFIGURATION, insecureUniqueId } from "@revolt/common";
+import { CONFIGURATION, insecureUniqueId } from "@voxly/common";
 
 import { State } from "..";
 

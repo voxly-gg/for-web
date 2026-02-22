@@ -10,15 +10,15 @@ import {
 } from "solid-js";
 
 import { useLingui } from "@lingui-solid/solid/macro";
-import type { API, Channel, Server, ServerFlags } from "stoat.js";
+import type { API, Channel, Server, ServerFlags } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { KeybindAction, createKeybind } from "@revolt/keybinds";
-import { TextWithEmoji } from "@revolt/markdown";
-import { useModals } from "@revolt/modal";
-import { useNavigate } from "@revolt/routing";
-import { useVoice } from "@revolt/rtc";
-import { useState } from "@revolt/state";
+import { KeybindAction, createKeybind } from "@voxly/keybinds";
+import { TextWithEmoji } from "@voxly/markdown";
+import { useModals } from "@voxly/modal";
+import { useNavigate } from "@voxly/routing";
+import { useVoice } from "@voxly/rtc";
+import { useState } from "@voxly/state";
 import {
   Column,
   Draggable,
@@ -31,10 +31,10 @@ import {
   iconSize,
   symbolSize,
   typography,
-} from "@revolt/ui";
-import { VoiceChannelPreview } from "@revolt/ui/components/features/voice/VoiceChannelPreview";
-import { createDragHandle } from "@revolt/ui/components/utils/Draggable";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+} from "@voxly/ui";
+import { VoiceChannelPreview } from "@voxly/ui/components/features/voice/VoiceChannelPreview";
+import { createDragHandle } from "@voxly/ui/components/utils/Draggable";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 import MdChevronRight from "@material-design-icons/svg/filled/chevron_right.svg?component-solid";
 

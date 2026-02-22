@@ -16,12 +16,12 @@ import {
 } from "solid-icons/bi";
 import { Match, Switch } from "solid-js";
 
-import { SystemMessage } from "stoat.js";
+import { SystemMessage } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { useTime } from "@revolt/i18n";
-import { Tooltip } from "@revolt/ui/components/floating";
-import { Time, formatTime } from "@revolt/ui/components/utils";
+import { useTime } from "@voxly/i18n";
+import { Tooltip } from "@voxly/ui/components/floating";
+import { Time, formatTime } from "@voxly/ui/components/utils";
 
 /**
  * System Message Icon

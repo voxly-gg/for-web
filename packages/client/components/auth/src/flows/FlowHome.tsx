@@ -3,12 +3,12 @@ import { Match, Show, Switch } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { css } from "styled-system/css";
 
-import { useClientLifecycle } from "@revolt/client";
-import { TransitionType } from "@revolt/client/Controller";
-import { Navigate } from "@revolt/routing";
-import { Button, Column } from "@revolt/ui";
+import { useClientLifecycle } from "@voxly/client";
+import { TransitionType } from "@voxly/client/Controller";
+import { Navigate } from "@voxly/routing";
+import { Button, Column } from "@voxly/ui";
 
-import { useState } from "@revolt/state";
+import { useState } from "@voxly/state";
 import Wordmark from "../../../../public/assets/web/wordmark.svg?component-solid";
 
 /**

@@ -7,17 +7,17 @@ import {
   ViewUpdate,
   WidgetType,
 } from "@codemirror/view";
-import { Channel, ServerMember, ServerRole, User } from "stoat.js";
+import { Channel, ServerMember, ServerRole, User } from "voxly.js";
 
-import { useClient } from "@revolt/client";
+import { useClient } from "@voxly/client";
 import {
   RE_UNICODE_EMOJI,
   unicodeEmojiUrl,
-} from "@revolt/markdown/emoji/UnicodeEmoji";
-import { userInformation } from "@revolt/markdown/users";
-import { useSmartParams } from "@revolt/routing";
+} from "@voxly/markdown/emoji/UnicodeEmoji";
+import { userInformation } from "@voxly/markdown/users";
+import { useSmartParams } from "@voxly/routing";
 
-import { parseUnicodeEmoji } from "@revolt/markdown/plugins/unicodeEmoji";
+import { parseUnicodeEmoji } from "@voxly/markdown/plugins/unicodeEmoji";
 import { isInCodeBlock } from "./codeMirrorCommon";
 
 export function codeMirrorWidgets() {

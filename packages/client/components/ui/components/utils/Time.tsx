@@ -1,6 +1,6 @@
 import { type JSX, createSignal, onCleanup } from "solid-js";
 
-import { useTime } from "@revolt/i18n";
+import { useTime } from "@voxly/i18n";
 
 interface Props {
   value: number | Date | string | JSX.Element;

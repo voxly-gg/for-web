@@ -34,16 +34,16 @@ export default defineConfig({
         maximumFileSizeToCacheInBytes: 4000000,
       },
       manifest: {
-        name: "Stoat",
-        short_name: "Stoat",
-        description: "User-first open source chat platform.",
+        name: "Voxly",
+        short_name: "Voxly",
+        description: "Gaming-focused chat platform.",
         categories: ["communication", "chat", "messaging"],
         start_url: base,
         orientation: "portrait",
         display_override: ["window-controls-overlay"],
         display: "standalone",
-        background_color: "#101823",
-        theme_color: "#101823",
+        background_color: "#0D0F14",
+        theme_color: "#0D0F14",
         icons: [
           {
             src: `${base}assets/web/android-chrome-192x192.png`,
@@ -88,7 +88,7 @@ export default defineConfig({
       ...readdirSync(resolve(__dirname, "components")).reduce(
         (p, f) => ({
           ...p,
-          [`@revolt/${f}`]: resolve(__dirname, "components", f),
+          [`@voxly/${f}`]: resolve(__dirname, "components", f),
         }),
         {},
       ),

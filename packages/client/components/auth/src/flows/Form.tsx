@@ -3,8 +3,8 @@ import { For, JSX, Show, createSignal } from "solid-js";
 
 import { useLingui } from "@lingui-solid/solid/macro";
 
-import { useError } from "@revolt/i18n";
-import { Checkbox2, Column, Text, TextField } from "@revolt/ui";
+import { useError } from "@voxly/i18n";
+import { Checkbox2, Column, Text, TextField } from "@voxly/ui";
 
 /**
  * Available field types

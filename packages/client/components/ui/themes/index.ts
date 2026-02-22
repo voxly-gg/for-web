@@ -3,4 +3,4 @@ export {
   createMaterialColourVariables,
   createMduiColourTriplets,
 } from "./materialTheme";
-export { createStoatWebVariables } from "./stoatWebTheme";
+export { createVoxlyWebVariables } from "./voxlyWebTheme";

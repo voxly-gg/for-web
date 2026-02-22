@@ -1,7 +1,7 @@
 import { Match, Switch, createSignal, onMount } from "solid-js";
 
-import { useApi } from "@revolt/client";
-import { useParams } from "@revolt/routing";
+import { useApi } from "@voxly/client";
+import { useParams } from "@voxly/routing";
 
 import { FlowTitle } from "./Flow";
 

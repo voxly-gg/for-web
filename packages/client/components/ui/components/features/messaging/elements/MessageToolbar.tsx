@@ -1,15 +1,15 @@
 import { Show } from "solid-js";
 
-import { Message } from "stoat.js";
+import { Message } from "voxly.js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { MessageContextMenu } from "@revolt/app";
-import { useUser } from "@revolt/client";
-import { useModals } from "@revolt/modal";
-import { useState } from "@revolt/state";
-import { Ripple } from "@revolt/ui/components/design";
-import { iconSize } from "@revolt/ui/components/utils";
+import { MessageContextMenu } from "@voxly/app";
+import { useUser } from "@voxly/client";
+import { useModals } from "@voxly/modal";
+import { useState } from "@voxly/state";
+import { Ripple } from "@voxly/ui/components/design";
+import { iconSize } from "@voxly/ui/components/utils";
 
 import MdDelete from "@material-design-icons/svg/outlined/delete.svg?component-solid";
 import MdEdit from "@material-design-icons/svg/outlined/edit.svg?component-solid";
@@ -17,7 +17,7 @@ import MdEmojiEmotions from "@material-design-icons/svg/outlined/emoji_emotions.
 import MdMoreVert from "@material-design-icons/svg/outlined/more_vert.svg?component-solid";
 import MdReply from "@material-design-icons/svg/outlined/reply.svg?component-solid";
 
-import { startsWithPackPUA } from "@revolt/markdown/emoji/UnicodeEmoji";
+import { startsWithPackPUA } from "@voxly/markdown/emoji/UnicodeEmoji";
 import { CompositionMediaPicker } from "../composition";
 
 export function MessageToolbar(props: { message?: Message }) {

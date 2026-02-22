@@ -16,12 +16,12 @@ import { Track } from "livekit-client";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { UserContextMenu } from "@revolt/app";
-import { useUser } from "@revolt/markdown/users";
-import { InRoom } from "@revolt/rtc";
-import { Avatar } from "@revolt/ui/components/design";
-import { OverflowingText } from "@revolt/ui/components/utils";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+import { UserContextMenu } from "@voxly/app";
+import { useUser } from "@voxly/markdown/users";
+import { InRoom } from "@voxly/rtc";
+import { Avatar } from "@voxly/ui/components/design";
+import { OverflowingText } from "@voxly/ui/components/utils";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 import { VoiceStatefulUserIcons } from "../VoiceStatefulUserIcons";
 

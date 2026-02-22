@@ -11,13 +11,13 @@ import {
 } from "solid-js";
 
 import { useLingui } from "@lingui-solid/solid/macro";
-import { Channel } from "stoat.js";
+import { Channel } from "voxly.js";
 
-import { useClient } from "@revolt/client";
-import { CONFIGURATION, debounce } from "@revolt/common";
-import { Keybind, KeybindAction, createKeybind } from "@revolt/keybinds";
-import { useModals } from "@revolt/modal";
-import { useState } from "@revolt/state";
+import { useClient } from "@voxly/client";
+import { CONFIGURATION, debounce } from "@voxly/common";
+import { Keybind, KeybindAction, createKeybind } from "@voxly/keybinds";
+import { useModals } from "@voxly/modal";
+import { useState } from "@voxly/state";
 import {
   CompositionMediaPicker,
   FileCarousel,
@@ -27,9 +27,9 @@ import {
   MessageBox,
   MessageReplyPreview,
   humanFileSize,
-} from "@revolt/ui";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
-import { useSearchSpace } from "@revolt/ui/components/utils/autoComplete";
+} from "@voxly/ui";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
+import { useSearchSpace } from "@voxly/ui/components/utils/autoComplete";
 
 interface Props {
   /**

@@ -1,8 +1,8 @@
 import { For } from "solid-js";
 
-import { Channel } from "stoat.js";
+import { Channel } from "voxly.js";
 
-import { useState } from "@revolt/state";
+import { useState } from "@voxly/state";
 
 import { DraftMessage } from "./DraftMessage";
 

@@ -3,8 +3,8 @@ import { Match, Switch } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { useVoice } from "@revolt/rtc";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+import { useVoice } from "@voxly/rtc";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 export function VoiceCallCardStatus() {
   const voice = useVoice();

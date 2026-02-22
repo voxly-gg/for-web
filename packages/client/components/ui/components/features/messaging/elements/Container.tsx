@@ -1,17 +1,17 @@
 import { JSX, Match, Show, Switch } from "solid-js";
 
 import { useLingui } from "@lingui-solid/solid/macro";
-import { Message } from "stoat.js";
+import { Message } from "voxly.js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { Ripple, typography } from "@revolt/ui/components/design";
-import { Column, Row } from "@revolt/ui/components/layout";
+import { Ripple, typography } from "@voxly/ui/components/design";
+import { Column, Row } from "@voxly/ui/components/layout";
 import {
   NonBreakingText,
   OverflowingText,
   Time,
-} from "@revolt/ui/components/utils";
+} from "@voxly/ui/components/utils";
 
 import { MessageToolbar } from "./MessageToolbar";
 

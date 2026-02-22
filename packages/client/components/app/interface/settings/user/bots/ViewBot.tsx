@@ -1,9 +1,9 @@
 import { Trans } from "@lingui-solid/solid/macro";
-import { Bot } from "stoat.js";
+import { Bot } from "voxly.js";
 
-import { createProfileResource } from "@revolt/client/resources";
-import { useModals } from "@revolt/modal";
-import { CategoryButton, Column, iconSize } from "@revolt/ui";
+import { createProfileResource } from "@voxly/client/resources";
+import { useModals } from "@voxly/modal";
+import { CategoryButton, Column, iconSize } from "@voxly/ui";
 
 import MdContentCopy from "@material-design-icons/svg/outlined/content_copy.svg?component-solid";
 import MdDelete from "@material-design-icons/svg/outlined/delete.svg?component-solid";

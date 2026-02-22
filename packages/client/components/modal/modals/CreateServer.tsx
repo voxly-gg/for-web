@@ -2,8 +2,8 @@ import { createFormControl, createFormGroup } from "solid-forms";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
 
-import { useNavigate } from "@revolt/routing";
-import { Column, Dialog, DialogProps, Form2, Text } from "@revolt/ui";
+import { useNavigate } from "@voxly/routing";
+import { Column, Dialog, DialogProps, Form2, Text } from "@voxly/ui";
 
 import { useModals } from "..";
 import { Modals } from "../types";

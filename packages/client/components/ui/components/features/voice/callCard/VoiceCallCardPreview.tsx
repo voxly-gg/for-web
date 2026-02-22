@@ -1,14 +1,14 @@
 import { For, Show } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import { Channel } from "stoat.js";
+import { Channel } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { useUsers } from "@revolt/markdown/users";
-import { useVoice } from "@revolt/rtc";
-import { Avatar, Ripple, Text } from "@revolt/ui/components/design";
-import { Row } from "@revolt/ui/components/layout";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+import { useUsers } from "@voxly/markdown/users";
+import { useVoice } from "@voxly/rtc";
+import { Avatar, Ripple, Text } from "@voxly/ui/components/design";
+import { Row } from "@voxly/ui/components/layout";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 /**
  * Call card (preview)

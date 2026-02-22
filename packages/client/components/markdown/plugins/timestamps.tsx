@@ -5,7 +5,7 @@ import type { Handler } from "mdast-util-to-hast";
 import { Plugin } from "unified";
 import { visit } from "unist-util-visit";
 
-import { dayjs, timeLocale } from "@revolt/i18n/dayjs";
+import { dayjs, timeLocale } from "@voxly/i18n/dayjs";
 
 import { time as Time } from "../elements";
 

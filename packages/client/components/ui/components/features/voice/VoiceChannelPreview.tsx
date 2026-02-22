@@ -8,13 +8,13 @@ import {
 } from "solid-livekit-components";
 
 import { Track } from "livekit-client";
-import { Channel, VoiceParticipant } from "stoat.js";
+import { Channel, VoiceParticipant } from "voxly.js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { UserContextMenu } from "@revolt/app";
-import { useUser } from "@revolt/markdown/users";
-import { InRoom } from "@revolt/rtc";
+import { UserContextMenu } from "@voxly/app";
+import { useUser } from "@voxly/markdown/users";
+import { InRoom } from "@voxly/rtc";
 
 import { Avatar, Ripple, typography } from "../../design";
 import { Row } from "../../layout";

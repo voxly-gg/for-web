@@ -1,8 +1,8 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useClient } from "@revolt/client";
-import { Markdown } from "@revolt/markdown";
-import { Dialog, DialogProps } from "@revolt/ui";
+import { useClient } from "@voxly/client";
+import { Markdown } from "@voxly/markdown";
+import { Dialog, DialogProps } from "@voxly/ui";
 
 import { useModals } from "..";
 import { Modals } from "../types";

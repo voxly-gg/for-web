@@ -1,10 +1,10 @@
 import { For, Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { ServerMember } from "stoat.js";
+import { ServerMember } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { useModals } from "@revolt/modal";
+import { useModals } from "@voxly/modal";
 
 import { Ripple, Text, typography } from "../../design";
 import { dismissFloatingElements } from "../../floating";

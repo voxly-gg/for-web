@@ -12,12 +12,12 @@ import {
 } from "solid-livekit-components";
 
 import { Track } from "livekit-client";
-import { Channel } from "stoat.js";
+import { Channel } from "voxly.js";
 import { css } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { UserContextMenu } from "@revolt/app";
-import { useUser } from "@revolt/markdown/users";
+import { UserContextMenu } from "@voxly/app";
+import { useUser } from "@voxly/markdown/users";
 import {
   Avatar,
   Button,
@@ -26,7 +26,7 @@ import {
   OverflowingText,
   Row,
   iconSize,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import MdHeadsetOff from "@material-design-icons/svg/outlined/headset_off.svg?component-solid";
 import MdMicOn from "@material-design-icons/svg/outlined/mic.svg?component-solid";

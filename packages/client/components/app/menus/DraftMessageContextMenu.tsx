@@ -1,11 +1,11 @@
 import { Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { Channel } from "stoat.js";
+import { Channel } from "voxly.js";
 
-import { useClient } from "@revolt/client";
-import { useState } from "@revolt/state";
-import { UnsentMessage } from "@revolt/state/stores/Draft";
+import { useClient } from "@voxly/client";
+import { useState } from "@voxly/state";
+import { UnsentMessage } from "@voxly/state/stores/Draft";
 
 import MdClose from "@material-design-icons/svg/outlined/close.svg?component-solid";
 import MdDelete from "@material-design-icons/svg/outlined/delete.svg?component-solid";

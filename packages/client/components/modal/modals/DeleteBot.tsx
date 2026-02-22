@@ -1,8 +1,8 @@
 import { Trans } from "@lingui-solid/solid/macro";
 import { useMutation } from "@tanstack/solid-query";
 
-import { useClient } from "@revolt/client";
-import { Dialog, DialogProps } from "@revolt/ui";
+import { useClient } from "@voxly/client";
+import { Dialog, DialogProps } from "@voxly/ui";
 
 import { useModals } from "..";
 import { Modals } from "../types";

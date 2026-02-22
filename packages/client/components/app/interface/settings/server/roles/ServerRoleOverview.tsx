@@ -3,12 +3,12 @@ import { Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 import { useMutation } from "@tanstack/solid-query";
-import { Server } from "stoat.js";
+import { Server } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { useModals } from "@revolt/modal";
-import { CategoryButton, Column, Draggable, Text, iconSize } from "@revolt/ui";
-import { createDragHandle } from "@revolt/ui/components/utils/Draggable";
+import { useModals } from "@voxly/modal";
+import { CategoryButton, Column, Draggable, Text, iconSize } from "@voxly/ui";
+import { createDragHandle } from "@voxly/ui/components/utils/Draggable";
 
 import MdDragIndicator from "@material-design-icons/svg/outlined/drag_indicator.svg?component-solid";
 import MdGroupAdd from "@material-design-icons/svg/outlined/group_add.svg?component-solid";

@@ -1,12 +1,12 @@
 import { For, Match, Show, Switch } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { File, Message } from "stoat.js";
+import { File, Message } from "voxly.js";
 
-import { useClient, useUser } from "@revolt/client";
-import { CustomEmoji, UnicodeEmoji } from "@revolt/markdown/emoji";
-import { useModals } from "@revolt/modal";
-import { useState } from "@revolt/state";
+import { useClient, useUser } from "@voxly/client";
+import { CustomEmoji, UnicodeEmoji } from "@voxly/markdown/emoji";
+import { useModals } from "@voxly/modal";
+import { useState } from "@voxly/state";
 
 import MdBadge from "@material-design-icons/svg/outlined/badge.svg?component-solid";
 import MdContentCopy from "@material-design-icons/svg/outlined/content_copy.svg?component-solid";

@@ -19,8 +19,8 @@ import { flip, offset, shift } from "@floating-ui/dom";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { Button } from "@revolt/ui/components/design";
-import { Row } from "@revolt/ui/components/layout";
+import { Button } from "@voxly/ui/components/design";
+import { Row } from "@voxly/ui/components/layout";
 
 import { EmojiPicker } from "./EmojiPicker";
 import { GifPicker } from "./GifPicker";

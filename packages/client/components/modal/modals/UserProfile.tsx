@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/solid-query";
 import { styled } from "styled-system/jsx";
 
-import { Dialog, DialogProps, Profile } from "@revolt/ui";
+import { Dialog, DialogProps, Profile } from "@voxly/ui";
 
 import { useModals } from "..";
 import { Modals } from "../types";

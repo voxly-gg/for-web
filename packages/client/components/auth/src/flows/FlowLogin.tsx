@@ -2,10 +2,10 @@ import { Match, Switch } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useClientLifecycle } from "@revolt/client";
-import { State, TransitionType } from "@revolt/client/Controller";
-import { useModals } from "@revolt/modal";
-import { Navigate } from "@revolt/routing";
+import { useClientLifecycle } from "@voxly/client";
+import { State, TransitionType } from "@voxly/client/Controller";
+import { useModals } from "@voxly/modal";
+import { Navigate } from "@voxly/routing";
 import {
   Button,
   CircularProgress,
@@ -13,11 +13,11 @@ import {
   Row,
   Text,
   iconSize,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import MdArrowBack from "@material-design-icons/svg/filled/arrow_back.svg?component-solid";
 
-import { useState } from "@revolt/state";
+import { useState } from "@voxly/state";
 import { FlowTitle } from "./Flow";
 import { Fields, Form } from "./Form";
 

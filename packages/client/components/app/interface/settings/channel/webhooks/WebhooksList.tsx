@@ -3,9 +3,9 @@ import { For, Match, Show, Switch, createMemo, onMount } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
-import { Avatar, CategoryButton, CircularProgress, Column } from "@revolt/ui";
+import { useClient } from "@voxly/client";
+import { useModals } from "@voxly/modal";
+import { Avatar, CategoryButton, CircularProgress, Column } from "@voxly/ui";
 
 import { ChannelSettingsProps } from "../../ChannelSettings";
 import { useSettingsNavigation } from "../../Settings";

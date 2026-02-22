@@ -1,6 +1,6 @@
 import { ComponentProps, splitProps } from "solid-js";
 
-import { useClient } from "@revolt/client";
+import { useClient } from "@voxly/client";
 
 import { EmojiBase } from ".";
 

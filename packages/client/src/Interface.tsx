@@ -1,19 +1,19 @@
 import { JSX, Match, Switch, createEffect } from "solid-js";
 
-import { Server } from "stoat.js";
+import { Server } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { ChannelContextMenu, ServerContextMenu } from "@revolt/app";
-import { MessageCache } from "@revolt/app/interface/channels/text/MessageCache";
-import { Titlebar } from "@revolt/app/interface/desktop/Titlebar";
-import { useClient, useClientLifecycle } from "@revolt/client";
-import { State } from "@revolt/client/Controller";
-import { NotificationsWorker } from "@revolt/client/NotificationsWorker";
-import { useModals } from "@revolt/modal";
-import { Navigate, useBeforeLeave, useLocation } from "@revolt/routing";
-import { useState } from "@revolt/state";
-import { LAYOUT_SECTIONS } from "@revolt/state/stores/Layout";
-import { CircularProgress } from "@revolt/ui";
+import { ChannelContextMenu, ServerContextMenu } from "@voxly/app";
+import { MessageCache } from "@voxly/app/interface/channels/text/MessageCache";
+import { Titlebar } from "@voxly/app/interface/desktop/Titlebar";
+import { useClient, useClientLifecycle } from "@voxly/client";
+import { State } from "@voxly/client/Controller";
+import { NotificationsWorker } from "@voxly/client/NotificationsWorker";
+import { useModals } from "@voxly/modal";
+import { Navigate, useBeforeLeave, useLocation } from "@voxly/routing";
+import { useState } from "@voxly/state";
+import { LAYOUT_SECTIONS } from "@voxly/state/stores/Layout";
+import { CircularProgress } from "@voxly/ui";
 
 import { Sidebar } from "./interface/Sidebar";
 

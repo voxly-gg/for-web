@@ -1,6 +1,6 @@
 import { mergeProps, splitProps } from "solid-js";
 
-import { CONFIGURATION } from "@revolt/common";
+import { CONFIGURATION } from "@voxly/common";
 
 import { type ActiveModal } from ".";
 import { AddBotModal } from "./modals/AddBot";

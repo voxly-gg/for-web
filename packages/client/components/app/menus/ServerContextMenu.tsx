@@ -2,12 +2,12 @@ import { For, Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 import dayjs from "dayjs";
-import { Server } from "stoat.js";
+import { Server } from "voxly.js";
 
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
-import { useState } from "@revolt/state";
-import { Column, Text, Time } from "@revolt/ui";
+import { useClient } from "@voxly/client";
+import { useModals } from "@voxly/modal";
+import { useState } from "@voxly/state";
+import { Column, Text, Time } from "@voxly/ui";
 
 import MdAlternateEmail from "@material-design-icons/svg/outlined/alternate_email.svg?component-solid";
 import MdBadge from "@material-design-icons/svg/outlined/badge.svg?component-solid";

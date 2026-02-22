@@ -13,13 +13,13 @@ import { VirtualContainer } from "@minht11/solid-virtual-container";
 import { useQuery } from "@tanstack/solid-query";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import env from "@revolt/common/lib/env";
+import { useClient } from "@voxly/client";
+import env from "@voxly/common/lib/env";
 import {
   CircularProgress,
   TextField,
   typography,
-} from "@revolt/ui/components/design";
+} from "@voxly/ui/components/design";
 
 import { CompositionMediaPickerContext } from "./CompositionMediaPicker";
 

@@ -12,15 +12,15 @@ import {
   User,
   UserModeratedSystemMessage,
   UserSystemMessage,
-} from "stoat.js";
+} from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { useTime } from "@revolt/i18n";
-import { time } from "@revolt/markdown/elements";
-import { RenderAnchor } from "@revolt/markdown/plugins/anchors";
-import { UserMention } from "@revolt/markdown/plugins/mentions";
-import { useSmartParams } from "@revolt/routing";
-import { formatTime, Time } from "@revolt/ui/components/utils";
+import { useTime } from "@voxly/i18n";
+import { time } from "@voxly/markdown/elements";
+import { RenderAnchor } from "@voxly/markdown/plugins/anchors";
+import { UserMention } from "@voxly/markdown/plugins/mentions";
+import { useSmartParams } from "@voxly/routing";
+import { formatTime, Time } from "@voxly/ui/components/utils";
 
 interface Props {
   /**

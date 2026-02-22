@@ -2,10 +2,10 @@ import { createFormControl, createFormGroup } from "solid-forms";
 import { For, Show, createMemo, createSignal } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import { API, Server, ServerRole } from "stoat.js";
+import { API, Server, ServerRole } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { useModals } from "@revolt/modal";
+import { useModals } from "@voxly/modal";
 import {
   Button,
   CategoryButton,
@@ -15,7 +15,7 @@ import {
   IconButton,
   Row,
   Text,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import MdContentCopy from "@material-design-icons/svg/outlined/content_copy.svg?component-solid";
 import MdDelete from "@material-design-icons/svg/outlined/delete.svg?component-solid";

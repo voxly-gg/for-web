@@ -2,7 +2,7 @@ import { Show } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { Button } from "@revolt/ui";
+import { Button } from "@voxly/ui";
 
 interface Props {
   email?: string;

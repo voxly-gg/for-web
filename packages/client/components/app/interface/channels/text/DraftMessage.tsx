@@ -1,14 +1,14 @@
 import { For, Match, Switch } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import type { Channel } from "stoat.js";
+import type { Channel } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { useClient, useUser } from "@revolt/client";
-import { Markdown } from "@revolt/markdown";
-import { userInformation } from "@revolt/markdown/users";
-import { useState } from "@revolt/state";
-import type { UnsentMessage } from "@revolt/state/stores/Draft";
+import { useClient, useUser } from "@voxly/client";
+import { Markdown } from "@voxly/markdown";
+import { userInformation } from "@voxly/markdown/users";
+import { useState } from "@voxly/state";
+import type { UnsentMessage } from "@voxly/state/stores/Draft";
 import {
   Avatar,
   MessageContainer,
@@ -16,7 +16,7 @@ import {
   SizedContent,
   Text,
   Username,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import { DraftMessageContextMenu } from "../../../menus/DraftMessageContextMenu";
 

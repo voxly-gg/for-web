@@ -1,4 +1,4 @@
-import { Column } from "@revolt/ui";
+import { Column } from "@voxly/ui";
 
 /**
  * Accessibility settings page

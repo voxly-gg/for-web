@@ -1,6 +1,6 @@
 import { styled } from "styled-system/jsx";
 
-import { typography } from "@revolt/ui/components/design";
+import { typography } from "@voxly/ui/components/design";
 
 /**
  * Common styles for the floating indicators

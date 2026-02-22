@@ -3,13 +3,13 @@ import { useMediaDeviceSelect } from "solid-livekit-components";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
 
-import { useState } from "@revolt/state";
-import { Checkbox, Column, Slider, Text } from "@revolt/ui";
+import { useState } from "@voxly/state";
+import { Checkbox, Column, Slider, Text } from "@voxly/ui";
 import {
   CategoryButton,
   CategoryCollapse,
-} from "@revolt/ui/components/design/CategoryButton";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+} from "@voxly/ui/components/design/CategoryButton";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 /**
  * Input options

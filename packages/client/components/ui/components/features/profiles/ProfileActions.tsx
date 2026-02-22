@@ -1,11 +1,11 @@
 import { Show } from "solid-js";
 
 import { useNavigate } from "@solidjs/router";
-import { ServerMember, User } from "stoat.js";
+import { ServerMember, User } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { UserContextMenu } from "@revolt/app";
-import { useModals } from "@revolt/modal";
+import { UserContextMenu } from "@voxly/app";
+import { useModals } from "@voxly/modal";
 
 import MdCancel from "@material-design-icons/svg/filled/cancel.svg?component-solid";
 import MdEdit from "@material-design-icons/svg/filled/edit.svg?component-solid";

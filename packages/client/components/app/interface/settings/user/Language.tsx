@@ -2,11 +2,11 @@ import { For, createMemo } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
 
-import { Language, Languages, browserPreferredLanguage } from "@revolt/i18n";
-import type { LanguageEntry } from "@revolt/i18n/Languages";
-import { timeLocale } from "@revolt/i18n/dayjs";
-import { UnicodeEmoji } from "@revolt/markdown/emoji";
-import { useState } from "@revolt/state";
+import { Language, Languages, browserPreferredLanguage } from "@voxly/i18n";
+import type { LanguageEntry } from "@voxly/i18n/Languages";
+import { timeLocale } from "@voxly/i18n/dayjs";
+import { UnicodeEmoji } from "@voxly/markdown/emoji";
+import { useState } from "@voxly/state";
 import {
   CategoryButton,
   CategoryButtonGroup,
@@ -16,7 +16,7 @@ import {
   Row,
   Time,
   iconSize,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import MdErrorFill from "@material-design-icons/svg/filled/error.svg?component-solid";
 import MdVerifiedFill from "@material-design-icons/svg/filled/verified.svg?component-solid";

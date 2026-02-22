@@ -2,8 +2,8 @@ import { createSignal, onMount } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
 
-import { CategoryButton, Checkbox, Column } from "@revolt/ui";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+import { CategoryButton, Checkbox, Column } from "@voxly/ui";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 declare type DesktopConfig = {
   firstLaunch: boolean;

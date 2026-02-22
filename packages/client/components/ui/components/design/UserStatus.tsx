@@ -1,4 +1,4 @@
-import type { API } from "stoat.js";
+import type { API } from "voxly.js";
 
 export type Props = {
   /**

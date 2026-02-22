@@ -1,11 +1,11 @@
 import { createFormControl, createFormGroup } from "solid-forms";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import { API } from "stoat.js";
+import { API } from "voxly.js";
 
-import { useClient } from "@revolt/client";
-import { CONFIGURATION } from "@revolt/common";
-import { Column, Dialog, DialogProps, Form2 } from "@revolt/ui";
+import { useClient } from "@voxly/client";
+import { CONFIGURATION } from "@voxly/common";
+import { Column, Dialog, DialogProps, Form2 } from "@voxly/ui";
 
 import { useModals } from "..";
 import { Modals } from "../types";

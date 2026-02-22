@@ -13,7 +13,7 @@ import { Motion, Presence } from "solid-motionone";
 import { autoUpdate, offset, shift } from "@floating-ui/dom";
 import { styled } from "styled-system/jsx";
 
-import { Text, iconSize, symbolSize } from "@revolt/ui";
+import { Text, iconSize, symbolSize } from "@voxly/ui";
 
 import MdChevronRight from "@material-design-icons/svg/outlined/chevron_right.svg?component-solid";
 

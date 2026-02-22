@@ -1,7 +1,7 @@
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useClient } from "@revolt/client";
-import { Avatar, OverflowingText, Ripple, typography } from "@revolt/ui";
+import { useClient } from "@voxly/client";
+import { Avatar, OverflowingText, Ripple, typography } from "@voxly/ui";
 
 import { useSettingsNavigation } from "../Settings";
 import {

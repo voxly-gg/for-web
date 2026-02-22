@@ -2,14 +2,14 @@ import { BiSolidFile } from "solid-icons/bi";
 import { Match, Show, Switch } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
-import { type Message } from "stoat.js";
+import { type Message } from "voxly.js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { floatingUserMenusFromMessage } from "@revolt/app/menus/UserContextMenu";
-import { renderSimpleMarkdown } from "@revolt/markdown";
-import { Avatar, typography } from "@revolt/ui/components/design";
-import { NonBreakingText } from "@revolt/ui/components/utils";
+import { floatingUserMenusFromMessage } from "@voxly/app/menus/UserContextMenu";
+import { renderSimpleMarkdown } from "@voxly/markdown";
+import { Avatar, typography } from "@voxly/ui/components/design";
+import { NonBreakingText } from "@voxly/ui/components/utils";
 
 import { Username } from "../../legacy";
 

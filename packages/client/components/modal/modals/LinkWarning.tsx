@@ -3,8 +3,8 @@ import { Match, Switch, createMemo, createSignal } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { useState } from "@revolt/state";
-import { Checkbox, Column, Dialog, DialogProps, Text } from "@revolt/ui";
+import { useState } from "@voxly/state";
+import { Checkbox, Column, Dialog, DialogProps, Text } from "@voxly/ui";
 
 import { Modals } from "../types";
 

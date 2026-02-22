@@ -3,13 +3,13 @@ import { JSX, Match, Show, Switch, splitProps } from "solid-js";
 import { Trans } from "@lingui-solid/solid/macro";
 import { cva } from "styled-system/css";
 
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
-import { paramsFromPathname } from "@revolt/routing";
-import { useState } from "@revolt/state";
-import { Avatar, iconSize } from "@revolt/ui";
-import { Invite } from "@revolt/ui/components/features/messaging/elements/Invite";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+import { useClient } from "@voxly/client";
+import { useModals } from "@voxly/modal";
+import { paramsFromPathname } from "@voxly/routing";
+import { useState } from "@voxly/state";
+import { Avatar, iconSize } from "@voxly/ui";
+import { Invite } from "@voxly/ui/components/features/messaging/elements/Invite";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 import MdChat from "@material-design-icons/svg/outlined/chat.svg?component-solid";
 import MdChevronRight from "@material-design-icons/svg/outlined/chevron_right.svg?component-solid";

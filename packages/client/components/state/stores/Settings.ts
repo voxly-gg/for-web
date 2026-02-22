@@ -1,7 +1,7 @@
 import {
   UNICODE_EMOJI_PACKS,
   UnicodeEmojiPacks,
-} from "@revolt/markdown/emoji/UnicodeEmoji";
+} from "@voxly/markdown/emoji/UnicodeEmoji";
 
 import { State } from "..";
 

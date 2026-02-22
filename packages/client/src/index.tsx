@@ -11,27 +11,27 @@ import { Navigate, Route, Router, useParams } from "@solidjs/router";
 import { QueryClient, QueryClientProvider } from "@tanstack/solid-query";
 import "material-symbols";
 import "mdui/mdui.css";
-import { PublicBot, PublicChannelInvite } from "stoat.js";
+import { PublicBot, PublicChannelInvite } from "voxly.js";
 
-import FlowCheck from "@revolt/auth/src/flows/FlowCheck";
-import FlowConfirmReset from "@revolt/auth/src/flows/FlowConfirmReset";
-import FlowCreate from "@revolt/auth/src/flows/FlowCreate";
-import FlowDeleteAccount from "@revolt/auth/src/flows/FlowDelete";
-import FlowHome from "@revolt/auth/src/flows/FlowHome";
-import FlowLogin from "@revolt/auth/src/flows/FlowLogin";
-import FlowResend from "@revolt/auth/src/flows/FlowResend";
-import FlowReset from "@revolt/auth/src/flows/FlowReset";
-import FlowVerify from "@revolt/auth/src/flows/FlowVerify";
-import { ClientContext, useClient } from "@revolt/client";
-import { I18nProvider } from "@revolt/i18n";
-import { KeybindContext } from "@revolt/keybinds";
-import { ModalContext, ModalRenderer, useModals } from "@revolt/modal";
-import { VoiceContext } from "@revolt/rtc";
-import { StateContext, SyncWorker, useState } from "@revolt/state";
-import { FloatingManager, LoadTheme } from "@revolt/ui";
+import FlowCheck from "@voxly/auth/src/flows/FlowCheck";
+import FlowConfirmReset from "@voxly/auth/src/flows/FlowConfirmReset";
+import FlowCreate from "@voxly/auth/src/flows/FlowCreate";
+import FlowDeleteAccount from "@voxly/auth/src/flows/FlowDelete";
+import FlowHome from "@voxly/auth/src/flows/FlowHome";
+import FlowLogin from "@voxly/auth/src/flows/FlowLogin";
+import FlowResend from "@voxly/auth/src/flows/FlowResend";
+import FlowReset from "@voxly/auth/src/flows/FlowReset";
+import FlowVerify from "@voxly/auth/src/flows/FlowVerify";
+import { ClientContext, useClient } from "@voxly/client";
+import { I18nProvider } from "@voxly/i18n";
+import { KeybindContext } from "@voxly/keybinds";
+import { ModalContext, ModalRenderer, useModals } from "@voxly/modal";
+import { VoiceContext } from "@voxly/rtc";
+import { StateContext, SyncWorker, useState } from "@voxly/state";
+import { FloatingManager, LoadTheme } from "@voxly/ui";
 
 /* @refresh reload */
-import "@revolt/ui/styles";
+import "@voxly/ui/styles";
 
 import AuthPage from "./Auth";
 import Interface from "./Interface";

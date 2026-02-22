@@ -2,12 +2,12 @@ import { createFormControl, createFormGroup } from "solid-forms";
 import { BiSolidPalette, BiSolidSpeaker } from "solid-icons/bi";
 import { For } from "solid-js";
 
-import { PublicBot, PublicChannelInvite } from "stoat.js";
+import { PublicBot, PublicChannelInvite } from "voxly.js";
 import { cva } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
+import { useClient } from "@voxly/client";
+import { useModals } from "@voxly/modal";
 import {
   Button,
   CategoryButton,
@@ -21,7 +21,7 @@ import {
   Text,
   TextField,
   iconSize,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import Face from "@material-design-icons/svg/filled/face.svg?component-solid";
 

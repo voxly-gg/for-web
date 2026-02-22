@@ -18,7 +18,7 @@ import { Motion } from "solid-motionone";
 import { Plural } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { useModals } from "@revolt/modal";
+import { useModals } from "@voxly/modal";
 
 // import { typography } from "../../design";
 import { PreviewStack } from "../PreviewStack";

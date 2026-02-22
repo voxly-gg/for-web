@@ -9,12 +9,12 @@ import {
 } from "solid-icons/bi";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import { Server } from "stoat.js";
+import { Server } from "voxly.js";
 
-import { useUser } from "@revolt/client";
-import { TextWithEmoji } from "@revolt/markdown";
-import { useModals } from "@revolt/modal";
-import { ColouredText } from "@revolt/ui";
+import { useUser } from "@voxly/client";
+import { TextWithEmoji } from "@voxly/markdown";
+import { useModals } from "@voxly/modal";
+import { ColouredText } from "@voxly/ui";
 
 import { SettingsConfiguration } from ".";
 import { ChannelPermissionsEditor } from "./channel/permissions/ChannelPermissionsEditor";

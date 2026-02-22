@@ -2,9 +2,9 @@ import { ErrorBoundary, For, Suspense } from "solid-js";
 
 import { Trans } from "@lingui-solid/solid/macro";
 
-import { useClient } from "@revolt/client";
-import { createOwnBotsResource } from "@revolt/client/resources";
-import { useModals } from "@revolt/modal";
+import { useClient } from "@voxly/client";
+import { createOwnBotsResource } from "@voxly/client/resources";
+import { useModals } from "@voxly/modal";
 import {
   Avatar,
   CategoryButton,
@@ -12,7 +12,7 @@ import {
   CircularProgress,
   Column,
   iconSize,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import MdLibraryBooks from "@material-design-icons/svg/outlined/library_books.svg?component-solid";
 import MdSmartToy from "@material-design-icons/svg/outlined/smart_toy.svg?component-solid";

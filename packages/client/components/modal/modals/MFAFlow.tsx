@@ -10,7 +10,7 @@ import {
 } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import type { API } from "stoat.js";
+import type { API } from "voxly.js";
 
 import {
   CategoryButton,
@@ -20,7 +20,7 @@ import {
   DialogProps,
   Form2,
   Text,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import { useModals } from "..";
 import { Modals } from "../types";

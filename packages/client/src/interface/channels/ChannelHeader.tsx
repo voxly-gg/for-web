@@ -1,15 +1,15 @@
 import { Accessor, Match, Setter, Show, Switch } from "solid-js";
 
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
-import { Channel } from "stoat.js";
+import { Channel } from "voxly.js";
 import { css } from "styled-system/css";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import { TextWithEmoji } from "@revolt/markdown";
-import { useModals } from "@revolt/modal";
-import { useState } from "@revolt/state";
-import { LAYOUT_SECTIONS } from "@revolt/state/stores/Layout";
+import { useClient } from "@voxly/client";
+import { TextWithEmoji } from "@voxly/markdown";
+import { useModals } from "@voxly/modal";
+import { useState } from "@voxly/state";
+import { LAYOUT_SECTIONS } from "@voxly/state/stores/Layout";
 import {
   Button,
   IconButton,
@@ -18,8 +18,8 @@ import {
   Spacer,
   UserStatus,
   typography,
-} from "@revolt/ui";
-import { Symbol } from "@revolt/ui/components/utils/Symbol";
+} from "@voxly/ui";
+import { Symbol } from "@voxly/ui/components/utils/Symbol";
 
 import MdGroup from "@material-design-icons/svg/outlined/group.svg?component-solid";
 import MdPersonAdd from "@material-design-icons/svg/outlined/person_add.svg?component-solid";

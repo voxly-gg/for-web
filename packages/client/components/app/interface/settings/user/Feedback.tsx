@@ -6,18 +6,18 @@ import {
   CategoryButtonGroup,
   Column,
   iconSize,
-} from "@revolt/ui";
+} from "@voxly/ui";
 
 import MdGroups3 from "@material-design-icons/svg/filled/groups_3.svg?component-solid";
 import MdBugReport from "@material-design-icons/svg/outlined/bug_report.svg?component-solid";
 import MdFormatListNumbered from "@material-design-icons/svg/outlined/format_list_numbered.svg?component-solid";
 import MdStar from "@material-design-icons/svg/outlined/star_outline.svg?component-solid";
-import { useClient } from "@revolt/client";
-import { CONFIGURATION } from "@revolt/common";
-import { useModals } from "@revolt/modal";
+import { useClient } from "@voxly/client";
+import { CONFIGURATION } from "@voxly/common";
+import { useModals } from "@voxly/modal";
 import { useNavigate } from "@solidjs/router";
 import { Match, Switch } from "solid-js";
-import { PublicChannelInvite } from "stoat.js";
+import { PublicChannelInvite } from "voxly.js";
 
 /**
  * Feedback
@@ -27,7 +27,7 @@ export function Feedback() {
   const navigate = useNavigate();
   const client = useClient();
 
-  const showLoungeButton = CONFIGURATION.IS_STOAT;
+  const showLoungeButton = CONFIGURATION.IS_VOXLY;
   const isInLounge =
     client()!.servers.get("01F7ZSBSFHQ8TA81725KQCSDDP") !== undefined;
 

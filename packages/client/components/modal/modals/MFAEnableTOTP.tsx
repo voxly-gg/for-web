@@ -4,7 +4,7 @@ import { QRCodeSVG } from "solid-qr-code";
 import { Trans, useLingui } from "@lingui-solid/solid/macro";
 import { styled } from "styled-system/jsx";
 
-import { Column, Dialog, DialogProps, Form2, Text } from "@revolt/ui";
+import { Column, Dialog, DialogProps, Form2, Text } from "@voxly/ui";
 
 import { useModals } from "..";
 import { Modals } from "../types";

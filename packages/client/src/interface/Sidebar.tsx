@@ -1,17 +1,17 @@
 import { Component, JSX, Match, Show, Switch, createMemo } from "solid-js";
 
-import { Channel, Server as ServerI } from "stoat.js";
+import { Channel, Server as ServerI } from "voxly.js";
 
 import {
   CategoryContextMenu,
   ChannelContextMenu,
   ServerSidebarContextMenu,
-} from "@revolt/app";
-import { useClient, useUser } from "@revolt/client";
-import { useModals } from "@revolt/modal";
-import { useLocation, useParams, useSmartParams } from "@revolt/routing";
-import { useState } from "@revolt/state";
-import { LAYOUT_SECTIONS } from "@revolt/state/stores/Layout";
+} from "@voxly/app";
+import { useClient, useUser } from "@voxly/client";
+import { useModals } from "@voxly/modal";
+import { useLocation, useParams, useSmartParams } from "@voxly/routing";
+import { useState } from "@voxly/state";
+import { LAYOUT_SECTIONS } from "@voxly/state/stores/Layout";
 
 import { HomeSidebar, ServerList, ServerSidebar } from "./navigation";
 

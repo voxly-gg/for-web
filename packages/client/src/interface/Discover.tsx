@@ -1,12 +1,12 @@
 import { createSignal, onCleanup } from "solid-js";
 
-import { PublicBot, PublicChannelInvite } from "stoat.js";
+import { PublicBot, PublicChannelInvite } from "voxly.js";
 import { styled } from "styled-system/jsx";
 
-import { useClient } from "@revolt/client";
-import { useModals } from "@revolt/modal";
-import { paramsFromPathname, useLocation, useNavigate } from "@revolt/routing";
-import { useState } from "@revolt/state";
+import { useClient } from "@voxly/client";
+import { useModals } from "@voxly/modal";
+import { paramsFromPathname, useLocation, useNavigate } from "@voxly/routing";
+import { useState } from "@voxly/state";
 
 /**
  * stt.gg wrapper
