@@ -3,4 +3,4 @@ export {
   createMaterialColourVariables,
   createMduiColourTriplets,
 } from "./materialTheme";
-export { createVoxlyWebVariables } from "./voxlyWebTheme";
+export { createVoxlyWebVariables, createVoxlyBrandOverrides } from "./voxlyWebTheme";

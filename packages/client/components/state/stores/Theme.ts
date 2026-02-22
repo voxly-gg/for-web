@@ -120,14 +120,14 @@ export class Theme extends AbstractStore {
   default(): TypeTheme {
     return {
       preset: "you",
-      mode: "system",
+      mode: "dark",
 
-      m3Accent: "#5470ec",
+      m3Accent: "#00D4FF",
       m3Contrast: 0.0,
       m3Variant: "tonal_spot",
 
       interfaceFont: "Inter",
-      monospaceFont: "Fira Code",
+      monospaceFont: "JetBrains Mono",
 
       blur: true,
       messageSize: 14,

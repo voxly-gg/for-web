@@ -6,6 +6,7 @@ import {
   createMaterialColourVariables,
   createMduiColourTriplets,
   createVoxlyWebVariables,
+  createVoxlyBrandOverrides,
 } from ".";
 import { Masks } from "./Masks";
 import { FONTS, MONOSPACE_FONTS } from "./fonts";
@@ -41,6 +42,8 @@ export function LoadTheme() {
       ...createMaterialColourVariables(activeTheme, "--md-sys-color-"),
       // mount --mdui-color triplet variables
       ...createMduiColourTriplets(activeTheme, "--mdui-color-"),
+      // override surface colors with Voxly brand palette (must be last)
+      ...createVoxlyBrandOverrides(activeTheme),
     })) {
       document.body.style.setProperty(key, value);
     }

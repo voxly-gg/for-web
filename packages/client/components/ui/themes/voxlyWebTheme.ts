@@ -48,6 +48,26 @@ export function createVoxlyWebVariables(theme: SelectedTheme) {
 }
 
 /**
+ * Override Material You surface colors with Voxly's dark slate brand palette.
+ * Applied after Material You so these values take precedence in dark mode.
+ */
+export function createVoxlyBrandOverrides(theme: SelectedTheme) {
+  if (!theme.darkMode) return {};
+
+  return {
+    "--md-sys-color-background": "#0D0F14",
+    "--md-sys-color-surface": "#0D0F14",
+    "--md-sys-color-surface-dim": "#0A0C10",
+    "--md-sys-color-surface-bright": "#1A1E27",
+    "--md-sys-color-surface-container-lowest": "#080A0E",
+    "--md-sys-color-surface-container-low": "#0D0F14",
+    "--md-sys-color-surface-container": "#111419",
+    "--md-sys-color-surface-container-high": "#151820",
+    "--md-sys-color-surface-container-highest": "#1A1E27",
+  };
+}
+
+/**
  * Add prefix to all keys in an object
  * @param object Object
  * @param prefix Prefix
